@@ -11,6 +11,9 @@
 ### [MyBatis 3.0](https://github.com/yonghwankim-dev/mybatis_study)
 ### [Bootstrap 4](https://github.com/yonghwankim-dev/Bootstrap_study)
 
+## Library
+### [jQuery 3.6](https://github.com/yonghwankim-dev/jQuery_study)
+
 ## Language
 ### [Java](https://github.com/yonghwankim-dev/java_study)
 ### [JSP 2.0](https://github.com/yonghwankim-dev/JSP2.0)
