@@ -1,6 +1,6 @@
 ## Software Enginnering
-### [Git](https://github.com/yonghwankim-dev/git_study)
-### [Design Pattern](https://github.com/yonghwankim-dev/DesignPattern)
+### [Git](GIT/README.md)
+### [Design Pattern](DesignPattern/README.md)
 
 ## Computer Science
 ### [Data Structure](https://github.com/yonghwankim-dev/DataStruct)
