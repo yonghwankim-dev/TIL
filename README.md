@@ -18,6 +18,6 @@
 ### [jQuery 3.6](Jquery/README.md)
 
 ## Language
-### [Java](https://github.com/yonghwankim-dev/java_study)
-### [JSP 2.0](https://github.com/yonghwankim-dev/JSP2.0)
+### [Java](Java/README.md)
+### [JSP 2.0](JSP/README.md)
 ### [Javascript](https://github.com/yonghwankim-dev/javascript_basic)
