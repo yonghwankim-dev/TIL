@@ -8,7 +8,7 @@
 1. [운영체제의 구조](./os_structure/운영체제_구조.md)
 
 ## 3. 프로세스
-1. [프로세스의 이해](https://yonghwankim-dev.tistory.com/191)
+1. [프로세스의 이해](./process/프로세스_이해.md)
 2. [프로세스의 생성](https://yonghwankim-dev.tistory.com/192)
 3. [프로세스간 통신](https://yonghwankim-dev.tistory.com/196)
 4. [프로세스간 통신의 실제](https://yonghwankim-dev.tistory.com/200)
