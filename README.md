@@ -5,7 +5,7 @@
 ## Computer Science
 ### [Data Structure](https://github.com/yonghwankim-dev/DataStruct)
 ### [Algorithm](https://github.com/yonghwankim-dev/inflearn_algorithm)
-### [Operating System Concept](https://github.com/yonghwankim-dev/OperatingSystem_Study)
+### [Operating System Concept](OS/README.md)
 
 ## Framework
 ### [MyBatis 3.0](https://github.com/yonghwankim-dev/mybatis_study)
