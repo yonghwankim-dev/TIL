@@ -1,8 +1,11 @@
+## 소스코드 저장소
+[소스코드](https://github.com/yonghwankim-dev/OperatingSystem_Study)
+
 ## 1. 소개
-1. [운영체제의 소개: Introduction](./intro/운영체제_소개.md)
+1. [운영체제의 소개](./intro/운영체제_소개.md)
 
 ## 2. 구조
-1. [운영체제의 구조 : O/S structures](./os_structure/운영체제_구조.md)
+1. [운영체제의 구조](./os_structure/운영체제_구조.md)
 
 ## 3. 프로세스
 1. [프로세스의 이해](https://yonghwankim-dev.tistory.com/191)
