@@ -15,7 +15,7 @@
 
 
 ## Library
-### [jQuery 3.6](https://github.com/yonghwankim-dev/jQuery_study)
+### [jQuery 3.6](Jquery/README.md)
 
 ## Language
 ### [Java](https://github.com/yonghwankim-dev/java_study)
