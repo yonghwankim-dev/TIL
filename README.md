@@ -20,4 +20,4 @@
 ## Language
 ### [Java](Java/README.md)
 ### [JSP 2.0](JSP/README.md)
-### [Javascript](https://github.com/yonghwankim-dev/javascript_basic)
+### [Javascript](JavaScript/README.md)
