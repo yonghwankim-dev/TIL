@@ -3,7 +3,7 @@
 ### [Design Pattern](DesignPattern/README.md)
 
 ## Computer Science
-### [Data Structure](https://github.com/yonghwankim-dev/DataStruct)
+### [Data Structure](DataStructure/README.md)
 ### [Algorithm](https://github.com/yonghwankim-dev/inflearn_algorithm)
 ### [Operating System Concept](OS/README.md)
 
