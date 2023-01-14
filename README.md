@@ -11,7 +11,7 @@
 ### [MyBatis 3.0](MyBatis/README.md)
 ### [Bootstrap 4](Bootstrap/README.md)
 ### [SpringBoot](SpringBoot/README.md)
-### [Spring](https://github.com/yonghwankim-dev/spring_study)
+### [Spring](Spring/README.md)
 
 
 ## Library
