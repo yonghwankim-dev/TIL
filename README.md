@@ -9,8 +9,8 @@
 
 ## Framework
 ### [MyBatis 3.0](MyBatis/README.md)
-### [Bootstrap 4](https://github.com/yonghwankim-dev/Bootstrap_study)
-### [SpringBoot](https://github.com/yonghwankim-dev/springboot_study)
+### [Bootstrap 4](Bootstrap/README.md)
+### [SpringBoot](SpringBoot/README.md)
 ### [Spring](https://github.com/yonghwankim-dev/spring_study)
 
 
