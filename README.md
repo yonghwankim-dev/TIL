@@ -4,7 +4,7 @@
 
 ## Computer Science
 ### [Data Structure](DataStructure/README.md)
-### [Algorithm](https://github.com/yonghwankim-dev/inflearn_algorithm)
+### [Algorithm](Algorithm/README.md)
 ### [Operating System Concept](OS/README.md)
 
 ## Framework
