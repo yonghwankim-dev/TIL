@@ -7,6 +7,7 @@
 ### [Algorithm](Algorithm/README.md)
 ### [Operating System Concept](OS/README.md)
 ### [Network](Network/README.md)
+### [Computer Structure](ComputerStructure/README.md)
 
 ## Framework
 ### [MyBatis 3.0](MyBatis/README.md)
