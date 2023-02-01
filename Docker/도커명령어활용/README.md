@@ -36,7 +36,7 @@ $ docker pull gcr.io/google-samples/hello-app:1.0
 - 다이제스트 값을 포함한 이미지 조회 명령어는 **docker images --digests**
 
 ### 도커 이미지 세부 정보 조회 docker image
-- docker image inspect [OPTIONS] IMAGE [IMAGE...]
+- **docker image inspect [OPTIONS] IMAGE [IMAGE...]**
 - 도커 오브젝트(이미지, 컨테이너 등)에 대한 세부 정보를 조회합니다.
 - docker image inspect 명령어 옵션
   - --format, -f : JSON 형식의 정보 중 지정한 형식의 정보만 출력할 수 있고, {} 중괄호 형식과 대소문자에 유의해야함
@@ -66,7 +66,7 @@ $ docker image inspect --format="{{.ContainerConfig.Env}}" httpd
 $ docker image inspect --format="{{.RootFS.Layers}}" httpd
 ```
 
-- docker image history [OPTIONS] IMAGE
+- **docker image history [OPTIONS] IMAGE**
 - 현재 이미지 구성을 위해 사용된 레이블 정보와 각 레이어의 수행 명령, 크기 등을 조회하는 명령어입니다.
 
 ```shell
