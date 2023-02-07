@@ -1,10 +1,12 @@
 # 도커 명령어 활용
 ## 목차
 - [x] [docker pull](#도커-이미지-내려받기-docker-pull)
-- [ ] docker image
+- [x] [docker image](#도커-이미지-세부-정보-조회-docker-image)
+- [x] [docker image tag](#docker-image-tag)
+- [ ] [docker login](#docker-login)
 
 ## 도커 이미지 명령어
-### 도커 이미지 내려받기 docker pull
+## 도커 이미지 내려받기 docker pull
 - docker [image] pull [OPTIONS] name[:TAG | @IMAGE_DIGEST]
 - **docker pull** 명령어는 도커 허브 레지스트리에서 원하는 이미지 파일을 다운로드하는 명령어입니다. 
 - docker pull 명령어 옵션
@@ -35,7 +37,7 @@ $ docker pull gcr.io/google-samples/hello-app:1.0
 - 도커 허브에서 관리하는 이미지의 고유 식별값
 - 다이제스트 값을 포함한 이미지 조회 명령어는 **docker images --digests**
 
-### 도커 이미지 세부 정보 조회 docker image
+## 도커 이미지 세부 정보 조회 docker image
 - **docker image inspect [OPTIONS] IMAGE [IMAGE...]**
 - 도커 오브젝트(이미지, 컨테이너 등)에 대한 세부 정보를 조회합니다.
 - docker image inspect 명령어 옵션
@@ -95,6 +97,34 @@ $ docker image history httpd
 
 변경되더라도 기존 레이어(큰 용량을 차지하는 데비안)를 제외한 변경된 웹 소스 레이어만 내려받아 사용하기 때문에 효율적이기 때문이다.
 
+## docker image tag
+- 원본 이미지에 참조 이미지 이름을 붙이는 명령어
 
+```shell
+docker image tag 원본이미지[:태그] 참조이미지[:태그]
+```
 
+```shell
+# 이미지 태그 설정
+~ $ docker image tag httpd:latest debian-httpd:1.0
+
+# 도커 허브와 같은 레지스트리에 업로드하는 경우 저장소명과 함께 태그 지정
+~ $ docker image tag httpd:latest yhkim951107/httpd:2.0
+```
+
+## docker login
+- 도커 허브에 원격 접속하는 명령어
+
+```shell
+~ $ docker login
+# 아이디 비밀번호 입력
+
+# 도커 허브에 이미지 업로드
+~ $ docker push yhkim951107/httpd:2.0
+
+# 본인 도커 허브 저장소에 업로드된 이미지 내려받기
+~ $ docker pull yhkim951107/httpd:2.0
+```
+
+![](images/img_1.png)
 
