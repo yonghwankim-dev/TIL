@@ -9,7 +9,7 @@
 
 ## 3. 프로세스
 1. [프로세스의 이해](./process/프로세스_이해.md)
-2. [프로세스의 생성](https://yonghwankim-dev.tistory.com/192)
+2. [프로세스의 생성](./processCreate/README.md)
 3. [프로세스간 통신](https://yonghwankim-dev.tistory.com/196)
 4. [프로세스간 통신의 실제](https://yonghwankim-dev.tistory.com/200)
 

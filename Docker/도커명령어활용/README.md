@@ -3,7 +3,7 @@
 - [x] [docker pull](#도커-이미지-내려받기-docker-pull)
 - [x] [docker image](#도커-이미지-세부-정보-조회-docker-image)
 - [x] [docker image tag](#docker-image-tag)
-- [ ] [docker login](#docker-login)
+- [x] [docker login](#docker-login)
 
 ## 도커 이미지 명령어
 ## 도커 이미지 내려받기 docker pull
