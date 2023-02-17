@@ -4,6 +4,7 @@
 - [HTTP 요청과 응답 메시지 구조](HTTP%20요청과%20응답%20메시지%20구조/README.md)
 - [HTTP 상태 코드](HTTP%20상태%20코드/README.md)
 - HTTP 요청과 응답
+- [URI URL](URI URL/README.md)
 
 2. HTTP 요청 메시지
 - HTTP 응답 메시지
