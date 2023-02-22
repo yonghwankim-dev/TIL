@@ -6,9 +6,10 @@
    - [HTTP 메서드](HTTP%20메서드/README.md)
    - [HTTP 요청과 응답 메시지 구조](HTTP%20요청과%20응답%20메시지%20구조/README.md)
    - [HTTP 상태 코드](HTTP%20상태%20코드/README.md)
-   - HTTP 요청과 응답 수행 과정
+   - Handsake
    - [URI URL](URI URL/README.md)
    - [브라우저에서 네이버를 입력하면 페이지가 보이기까지 무슨일이 일어나는가](HTTP요청및응답과정/README.md)
+
 2. HTTP 쿠키 및 세션
    - HTTP 쿠키
    - HTTP 세션
