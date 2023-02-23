@@ -4,6 +4,7 @@
 - [x] [docker image](#도커-이미지-세부-정보-조회-docker-image)
 - [x] [docker image tag](#docker-image-tag)
 - [x] [docker login](#docker-login)
+- [ ] [도커 이미지를 파일로 관리(docker image save)](#docker-image-save)
 
 ## 도커 이미지 명령어
 ## 도커 이미지 내려받기 docker pull
@@ -128,3 +129,56 @@ docker image tag 원본이미지[:태그] 참조이미지[:태그]
 
 ![](images/img_1.png)
 
+## docker image save
+- docker image save 명령어는 도커 원본 이미지의 레이어 구조까지 포함한 복제를 수행하여 확장자 tar(Tape ARchiver) 파일로 이미지를 저장하는 
+명령어입니다.
+
+### 도커 이미지를 파일로 관리할 필요가 있는 경우
+- 도커 허브에서 이미지를 내려받아서 내부망으로 이전하는 경우
+- 신규 애플리케이션 서비스를 위해서 Dockerfile로 새롭게 생성한 이미지를 저장하고 배포해야 하는 경우
+- 컨테이너를 완료(commit)하여 생성한 이미지를 저장 및 배포해야 하는 경우
+- 개발 및 수정한 이미지 등
+
+### docker image save 명령어 형식
+```
+# 도커 이미지를 tar 파일로 저장.
+docker image save [옵션] <파일명> [image명]
+
+# docker save로 저장한 tar 파일을 이미지로 불러옴
+docker image load [옵션]
+```
+
+### docker image save & docker image load 예제
+```shell
+$ docker pull mysql:5.7
+
+# docker image save 명령어를 이용해 이미지를 tar 파일로 저장
+$ docker image save mysql:5.7 > test-mysql57.tar
+$ ls -lh test-mysql57.tar
+total 428M
+-rw-rw-r-- 1 yonghwan yonghwan 428M  2월 23 23:51 test-mysql57.tar
+
+# tar 명령의 옵션중 tvf(t(list), v(verbose), f(file))를 이용해 묶인 파일 내용을 확인할 수 있습니다. 이미지 레이어들의
+다이제스트값으로 만들어진 디렉터리 파일입니다
+$ tar tvf test-mysql57.tar
+drwxr-xr-x 0/0               0 2023-01-18 15:01 14cd969708a3853b713c5260aff4f49659fd3a14ddca25ddb5f607b3fa31e704/
+-rw-r--r-- 0/0               3 2023-01-18 15:01 14cd969708a3853b713c5260aff4f49659fd3a14ddca25ddb5f607b3fa31e704/VERSION
+-rw-r--r-- 0/0             482 2023-01-18 15:01 14cd969708a3853b713c5260aff4f49659fd3a14ddca25ddb5f607b3fa31e704/json
+-rw-r--r-- 0/0            2560 2023-01-18 15:01 14cd969708a3853b713c5260aff4f49659fd3a14ddca25ddb5f607b3fa31e704/layer.tar
+...
+
+$ docker image rm mysql/mysql-server:5.7
+# docker image load 명령을 이용해 파일로 만들어진 이미지 tar 파일 내용을 불러옵니다.
+$ docker image load < test-mysql57.tar
+
+# 로컬에 저장된 tar 파일을 기반으로 새롭게 지정한 이미지명과 태그로 이미지 등록이 가능함
+$ cat test-mysql57.tar | docker import - mysql57:1.0
+```
+- tvf 옵션 : tar 아카이브 파일 내부의 파일 목록을 출력합니다.
+
+#### gzip 옵션을 사용한 tar 파일 용량 줄이기
+```shell
+$ docker image save mysql/mysql-server:5.7 | gzip > test-mysql57zip.tar.gz
+
+$ ls -lh test-mysql57zip.tar.gz
+```
