@@ -1,29 +1,33 @@
 # 그림으로 배우는 Http & Network Basic
 
 **제 1장 웹과 네트워크의 기본에 대해 알아보자**  
-1.1 [웹은 HTTP로 나타낸다](HTTP는이렇게태어났고성장했다/README.md)
+[1.1 웹은 HTTP로 나타낸다](HTTP는이렇게태어났고성장했다/README.md)
 
-1.2 [HTTP는 이렇게 태어났고 성장했다](HTTP는이렇게태어났고성장했다/README.md)  
+[1.2 HTTP는 이렇게 태어났고 성장했다](HTTP는이렇게태어났고성장했다/README.md)  
 - 웹은 지식 공유를 위해 고안되었다  
 - 웹이 성장한 시대  
 - 진보 안하는 HTTP
 
-1.3 [네트워크의 기본은 TCP/IP](네트워크의기본은TCP-IP/README.md)  
+[1.3 네트워크의 기본은 TCP/IP](네트워크의기본은TCP-IP/README.md)  
 - TCP/IP는 프로토콜의 집합  
 - 계층으로 관리하는 TCP/IP  
 - TCP/IP 통신의 흐름
 
-1.4 [HTTP와 관계가 깊은 프로토콜은 IP/TCP/DNS](IP_TCP_DNS/README.md)  
+[1.4 HTTP와 관계가 깊은 프로토콜은 IP/TCP/DNS](IP_TCP_DNS/README.md)  
 - 배송을 담당하는 IP  
   - IP, MAC, ARP
 - 신뢰성을 담당하는 TCP
   - TCP, 쓰리웨이 핸드셰이킹
 
-1.5 이름 해결을 담당하는 DNS  
-1.6 이들과 HTTP와의 관계  
-1.7 URI와 URL  
-    1.7.1 URI는 리소스 식별자  
-    1.7.2 URL 포맷  
+[1.5 이름 해결을 담당하는 DNS](DNS/README.md)
+- DNS
+
+[1.6 IP/TCP/DNS와 HTTP와의 관계](IP_TCP_DNS_HTTP관계/README.md)
+
+[1.7 URI와 URL](URI_URL/README.md)
+- URI는 리소스 식별자
+  - URI, URL
+- URL 포맷  
   
 **제 2장. 간단한 프로토콜 HTTP**  
 2.1 HTTP는 클라이언트와 서버간에 통신을 한다  
