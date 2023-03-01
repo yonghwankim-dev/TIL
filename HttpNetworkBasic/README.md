@@ -13,9 +13,11 @@
 - 계층으로 관리하는 TCP/IP  
 - TCP/IP 통신의 흐름
 
-1.4 HTTP와 관계가 깊은 프로토콜은 IP/TCP/DNS  
+1.4 [HTTP와 관계가 깊은 프로토콜은 IP/TCP/DNS](IP_TCP_DNS/README.md)  
 - 배송을 담당하는 IP  
+  - IP, MAC, ARP
 - 신뢰성을 담당하는 TCP
+  - TCP, 쓰리웨이 핸드셰이킹
 
 1.5 이름 해결을 담당하는 DNS  
 1.6 이들과 HTTP와의 관계  
