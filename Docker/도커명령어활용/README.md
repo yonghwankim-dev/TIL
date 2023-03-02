@@ -4,7 +4,8 @@
 - [x] [docker image](#도커-이미지-세부-정보-조회-docker-image)
 - [x] [docker image tag](#docker-image-tag)
 - [x] [docker login](#docker-login)
-- [ ] [도커 이미지를 파일로 관리(docker image save)](#docker-image-save)
+- [x] [도커 이미지를 파일로 관리(docker image save)](#docker-image-save)
+- [ ] [도커 이미지 삭제(docker image rm)](#docker-image-rm)
 
 ## 도커 이미지 명령어
 ## 도커 이미지 내려받기 docker pull
@@ -182,3 +183,13 @@ $ docker image save mysql/mysql-server:5.7 | gzip > test-mysql57zip.tar.gz
 
 $ ls -lh test-mysql57zip.tar.gz
 ```
+
+## docker image rm
+- docker image rm 명령어는 도커 이미지를 삭제하는 명령어입니다.
+
+### 도커 이미지 삭제 명령어 형식
+```
+docker image rm [옵션] {이미지 이름[:태그] | 이미지 ID}
+docker rmi [옵션] {이미지 이름[:태그] | 이미지 ID}
+```
+
