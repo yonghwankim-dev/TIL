@@ -28,7 +28,7 @@
 - URI는 리소스 식별자
   - URI, URL
 - URL 포맷  
-  
+
 **제 2장. 간단한 프로토콜 HTTP**  
 [2.1 HTTP는 클라이언트와 서버간에 통신을 한다](HTTP는클라이언트와서버간에통신/README.md)
 
@@ -36,9 +36,14 @@
 
 [2.3 HTTP는 상태를 유지하지 않는 프로토콜](HTTP_특징/README.md)  
 
-2.4 리퀘스트 URI로 리소스를 식별
-2.5 서버에 임무를 부여하는 HTTP 메소드  
-2.6 메소드를 사용해서 지시를 내리다  
+[2.4 리퀘스트 URI로 리소스를 식별](리퀘스트URI로리소스식별/README.md)
+
+[2.5 서버에 임무를 부여하는 HTTP 메소드](HTTP_메소드/README.md)
+    - GET, POST, PUT, HEAD, DELETE, OPTIONS, TRACE, CONNECT 
+
+[2.6 메소드를 사용해서 지시를 내리다](HTTP_메소드/README.md)
+    - LINK, UNLINK
+
 2.7 지속 연결로 접속량을 절약  
     2.7.1 지속 연결  
     2.7.2 파이프라인화  
