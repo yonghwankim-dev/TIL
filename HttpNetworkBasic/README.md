@@ -74,27 +74,34 @@
 
 [3.6 최적의 콘텐츠를 돌려주는 콘텐츠 네고시에이션]((HTTP메시지/README.md))
 
-**제 4장. 결과를 전달하는 HTTP 상태 코드**  
-4.1 상태 코드는 서버로부터 리퀘스트 결과를 전달한다  
-4.2 2xx 성공(Success)  
-4.2.1 200 OK  
-4.2.2 204 No Content  
-4.2.3 206 Partial Content  
-4.3 3xx 리다이렉트(Redirection)  
-4.3.1 301 Moved Permanently  
-4.3.2 302 Found  
-4.3.3 303 See Other  
-4.3.4 304 Not Modified  
-4.3.5 307 Temporary Redirect
+## 4장. 결과를 전달하는 HTTP 상태 코드
 
-4.4 4xx 클라이언트 에러(Client Error)  
-4.4.1 400 Bad Request  
-4.4.2 401 Unauthorized  
-4.4.3 403 Forbidden
+[4.1 상태 코드는 서버로부터 리퀘스트 결과를 전달한다](HTTP_상태코드/README.md)
 
-4.5 5xx 서버 에러(Server Error)  
-4.5.1 500 Internal Server Error  
-4.5.2 503 Service Unavailable
+[4.2 2xx 성공(Success)](HTTP_상태코드/README.md)
+
+- 200 OK
+- 204 No Content
+- 206 Partial Content
+
+[4.3 3xx 리다이렉트(Redirection)](HTTP_상태코드/README.md)
+
+- 301 Moved Permanently
+- 302 Found
+- 303 See Other
+- 304 Not Modified
+- 307 Temporary Redirect
+
+[4.4 4xx 클라이언트 에러(Client Error)](HTTP_상태코드/README.md)
+
+- 400 Bad Request
+- 401 Unauthorized
+- 403 Forbidden
+
+[4.5 5xx 서버 에러(Server Error)](HTTP_상태코드/README.md)
+
+- 500 Internal Server Error
+- 503 Service Unavailable
 
 **제 5장 HTTP와 연계하는 웹 서버**  
 5.1 1대로 멀티 도메인을 가능하게 하는 가상 호스트  
