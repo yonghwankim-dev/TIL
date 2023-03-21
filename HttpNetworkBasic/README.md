@@ -119,13 +119,15 @@
 
 **제 6장 HTTP 헤더**  
 6.1 HTTP 메시지 헤더  
-6.2 HTTP 헤더 필드  
-6.2.1 HTTP 헤더 필드는 중요한 정보를 전달한다  
-6.2.2 HTTP 헤더 필드의 구조  
-6.2.3 4종류의 HTTP 헤더 필드  
-6.2.4 HTTP/1.1 헤더 필드 일람  
-6.2.5 HTTP/1.1 이외의 헤더 필드  
-6.2.6 End-to-end 헤더와 Hop-by-hop 헤더  
+6.2 HTTP 헤더 필드
+
+- HTTP 헤더 필드는 중요한 정보를 전달한다
+- HTTP 헤더 필드의 구조
+- 4종류의 HTTP 헤더 필드
+- HTTP/1.1 헤더 필드 일람
+- HTTP/1.1 이외의 헤더 필드
+- End-to-end 헤더와 Hop-by-hop 헤더
+
 6.3 HTTP/1.1 일반 헤더 필드  
 6.3.1 Cache-Control  
 6.3.2 Connection  
