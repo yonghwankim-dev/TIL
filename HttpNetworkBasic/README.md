@@ -118,8 +118,8 @@
 - 클라이언트 측에도 캐시가 있다
 
 **제 6장 HTTP 헤더**  
-6.1 HTTP 메시지 헤더  
-6.2 HTTP 헤더 필드
+6.1 [HTTP 메시지 헤더](HTTP_헤더/README.md)  
+6.2 [HTTP 헤더 필드](HTTP_헤더/README.md)
 
 - HTTP 헤더 필드는 중요한 정보를 전달한다
 - HTTP 헤더 필드의 구조
@@ -128,16 +128,18 @@
 - HTTP/1.1 이외의 헤더 필드
 - End-to-end 헤더와 Hop-by-hop 헤더
 
-6.3 HTTP/1.1 일반 헤더 필드  
-6.3.1 Cache-Control  
-6.3.2 Connection  
-6.3.3 Date  
-6.3.4 Pragma  
-6.3.5 Trailer  
-6.3.6 Transfer-Encoding  
-6.3.7 Upgrade  
-6.3.8 Via  
-6.3.9 Warning  
+6.3 [HTTP/1.1 일반 헤더 필드](HTTP_일반헤더필드/README.md)
+
+- Cache-Control
+- Connection
+- Date
+- Pragma
+- Trailer
+- Transfer-Encoding
+- Upgrade
+- Via
+- Warning
+
 6.4 리퀘스트 헤더 필드  
 6.4.1 Accept  
 6.4.2 Accept-Charset  
