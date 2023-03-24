@@ -117,3 +117,130 @@ HTTP/1.1에서 필수 헤더 필드입니다. 필수인 이유는 1대의 서버
 Host: www.hackr.jp
 ```
 
+## If-Match
+
+If-Match 헤더 필드는 조건부 리퀘스트입니다.
+
+조건부 리퀘스트를 받은 서버는 조건에 맞는 경우에만 리퀘스트를 받습니다.
+
+![img.png](img.png)
+
+![img_1.png](img_1.png)
+
+```
+If-Match: "123456"
+```
+
+## If-Modified-Since
+
+![img_2.png](img_2.png)
+
+```
+If-Modified-Since: Thu, 15 Apr 2004 00:00:00 GMT
+```
+
+If-Modified-Since 헤더 필드는 HTTP 요청에서 사용되는 조건부 요청 헤더 중 하나입니다.
+
+클라이언트가 마지막으로 서버로부터 리소스를 받은 후로 수정된 적이 있을 경우에만 서버가
+
+해당 리소스를 다시 제공하도록 요청하는데 사용됩니다.
+
+서버는 If-Modified-Since 헤더 값을 확인하고 **이 값이 서버가 가진 리소스의 마지막 수정 시간보다
+
+이전인 경우**에는 304 Not Modified 응답 코드를 반환합니다.
+
+## If-None-Match
+
+![img_3.png](img_3.png)
+
+위 그림과 같이 If-None-Match 필드 값과 ETag가 일치하지 않은 경우에만 리퀘스트를 받아들입니다.
+
+If-Match 헤더와는 반대로 작동합니다.
+
+## If-Range
+
+![img_4.png](img_4.png)
+
+위 그림과 같이 If-Range 헤더 필드 값이 요청하고자 하는 리소스의 엔티티 태그의 값과 동일하기 때문에
+
+요청대로 5001-10000 byte를 응답합니다.
+
+![img_5.png](img_5.png)
+
+위 그림과 같이 If-Range 헤더 필드 값이 요청하고자 하는 리소스의 엔티티 태그의 값과
+
+일치하지 않기 때문에 전체 리소스를 응답합니다.
+
+If-Range 헤더 필드는 지정한 엔티티 태그값과 지정한 리소스의 엔티티 태그값과 동일하면
+
+Range 리퀘스트로서 서버가 처리합니다. 일치하지 않으면 리소스 전체를 반환합니다.
+
+만약 If-Range 헤더 필드를 사용하지 않고 Range 헤더 필드를 사용하게 되면
+
+리퀘스트를 한번 보낼것을 2번 보내게 됩니다.
+
+## If-Unmodified-Since
+
+```
+If-Unmodified-Since: Thu, 03 Jul 2012 00:00:00 GMT
+```
+
+요청한 리소스가 필드 값에 지정된 날짜 이후에 갱신되어 있지 않은 경우에만 리퀘스트를 받아들입니다.
+
+지정된 날짜 이후에 갱신된 경우에는 412 Precondition Failed 리스폰스를 반환합니다.
+
+## Max-Forwards
+
+![img_6.png](img_6.png)
+서버는 다음 서버에 리퀘스트를 전송할 때는 Max-Forwards 값에서 1을 빼서 다시 설정합니다.
+
+Max-Forwards 값이 0인 리퀘스트를 받은 경우에는 전송하지 않고 리스폰스를 반환합니다.
+
+Max-Forwards 헤더 필드 값을 사용하여 그 서버까지의 상황을 알 수 있습니다.
+
+## Proxy-Authorization
+
+```
+Proxy-Authorization: Basic dGlwOjkpNlagFfy5
+```
+
+프록시 서버에서의 인증 요구를 받아들인 때에 인증에 필요한 클라이언트의 정보를 전달합니다.
+
+클라이언트와 프록시 사이에 인증이 이루어집니다.
+
+## Range
+
+```
+Range: bytes=5001-10000
+```
+
+리소스의 일부분만 취득하는 Range 리퀘스트를 할때 지정 범위를 전달합니다.
+
+위 예제에서는 리소스의 5001 바이트부터 10000 바이트까지의 리소스를 요구하고 있습니다.
+
+## Referer
+
+```
+Referer: http://www.hackr.jp/index.html
+```
+
+Referer 헤더 필드는 리퀘스트가 발생한 본래 리소스의 URI를 전달합니다.
+
+## TE
+
+```
+TE: gzip, deflate;q=0.5
+```
+
+TE 헤더 필드는 리스폰스로 받을 수 있는 **전송 코딩 형식**과 상대적인 우선순위를 전달합니다.
+
+Accept-Encoding 헤더 필드와 비슷하지만 여기선 전송 코딩에 적용됩니다.
+
+## User-Agent
+
+```
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKt/535.19 (KHTML, like Gecko)
+Chrome/18.0.1025.162 Safari/535.195
+```
+
+User-Agent 헤더 필드는 리퀘스트를 생성한 브라우저와 유저 에이전의 이름등을 전달하기 위한 헤더 필드입니다.
