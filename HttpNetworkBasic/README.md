@@ -140,26 +140,28 @@
 - Via
 - Warning
 
-6.4 리퀘스트 헤더 필드  
-6.4.1 Accept  
-6.4.2 Accept-Charset  
-6.4.3 Accept-Encoding  
-6.4.4 Accept-Language  
-6.4.5 Authorization  
-6.4.6 Expect  
-6.4.7 From  
-6.4.8 Host  
-6.4.9 If-Match  
-6.4.10 If-Modified-Since  
-6.4.11 If-None-Match  
-6.4.12 If-Range  
-6.4.13 If-Unmodified-Since  
-6.4.14 Max-Forwards  
-6.4.15 Proxy-Authorization  
-6.4.16 Range  
-6.4.17 Referer  
-6.4.18 TE  
-6.4.19 User-Agent  
+6.4 [리퀘스트 헤더 필드](HTTP_리퀘스트헤더필드/README.md)
+
+- Accept
+- Accept-Charset
+- Accept-Encoding
+- Accept-Language
+- Authorization
+- Expect
+- From
+- Host
+- If-Match
+- If-Modified-Since
+- If-None-Match
+- If-Range
+- If-Unmodified-Since
+- Max-Forwards
+- Proxy-Authorization
+- Range
+- Referer
+- TE
+- User-Agent
+
 6.5 리스폰스 헤더 필드  
 6.5.1 Accept-Ranges  
 6.5.2 Age  
