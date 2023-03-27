@@ -83,5 +83,8 @@
 1. [Optional 클래스를 통한 Null 처리](https://yonghwankim-dev.tistory.com/566)
 2. [Optional의 위험 및 사용 가이드](https://yonghwankim-dev.tistory.com/567)
 
+## JVM
+1. [JVM(Java Virtual Machine) 실행원리와 구조](https://yonghwankim-dev.tistory.com/580)
+
 ## Reference
 [Java의 정석 3rd](https://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=249927409&gclid=CjwKCAjwquWVBhBrEiwAt1KmwnnLk5f64TVfd49uJJy08e3Fn37ePGXCwRFkW-zl_0XbTqVSFq0jlRoCr3oQAvD_BwE)
