@@ -44,3 +44,10 @@
     1. PowerUserAccess 정책 선택
 2. 사용자 생성 (yonghwan_dev)
     1. codesquad-developer 그룹 선택
+
+## 로그인 URL 변경
+
+1. 대시보드 이동
+2. AWS 계정 - 계정 별칭 생성 버튼
+3. 기본 별칭 수정 및 저장
+
