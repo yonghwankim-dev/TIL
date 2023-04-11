@@ -48,6 +48,8 @@
 
 ### [Docker](Docker/README.md)
 
+### [실습으로 배우는 AWS 핵심 서비스](실습으로배우는AWS핵심서비스/README.md)
+
 ## TIL
 
 ### [TIL](TIL/README.md)
