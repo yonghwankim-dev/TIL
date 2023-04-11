@@ -4,9 +4,20 @@
 
 - 크로스 사이트 스크립팅(XSS, cross-site scripting)
 - 크로스 사이트 리퀘스트 포저리(CSRF, Cross Site Request Forgery)
-- SQL Injection
-- OS Command Injection
-- HTTP Header Injection
+- SQL 주입(SQL Injection)
+- 운영체제 명령어 주입(OS Command Injection)
+- 메일 헤더 주입(HTTP Header Injection)
+- 디렉토리 접근 공격(Directory Traversal)
+- 리모트 파일 인클루션(Remote File Inclusion)
+- 강제 브라우징(Forced Browsing)
+- 부적절한 에러 메시지 처리(Error Handling Vulnerability)
+- 오픈 리다이렉트(Open Redirect)
+- 세션 하이잭(Session Hijack)
+- 세션 픽세이션(Session Fixation)
+- 패스워드 크래킹(Password Cracking)
+- 클릭 재킹(Clickjacking)
+- Dos 공격(Denial of Service attack)
+- 백도어(Backdoor)
 
 ## 크로스 사이트 스크립팅(XSS, cross-site scripting)
 
