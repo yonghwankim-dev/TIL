@@ -8,4 +8,6 @@
 6. [S3_권한제어](S3_권한제어/README.md)
 7. [S3_기능과_특징](S3_기능과_특징/README.md)
 8. [EC2](EC2/README.md)
+9. [EC2_실습1](EC2_실습1/README.md)
+10. EC2_실습2
 
