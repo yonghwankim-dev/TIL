@@ -9,5 +9,6 @@
 7. [S3_기능과_특징](S3_기능과_특징/README.md)
 8. [EC2](EC2/README.md)
 9. [EC2_실습1](EC2_실습1/README.md)
-10. EC2_실습2
+10. [EC2_실습2](EC2_실습2/README.md)
+11. [VPC](VPC/README.md)
 
