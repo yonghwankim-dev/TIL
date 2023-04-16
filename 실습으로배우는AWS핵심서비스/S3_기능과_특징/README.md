@@ -24,6 +24,8 @@ output format : json
 $ aws s3 ls
 ```
 
+![img.png](img.png)
+
 ## CLI을 이용한 버킷 생성
 
 ### 명령어 형식
@@ -46,6 +48,8 @@ $ aws s3 mb s3://yonghwan-bucket2
 $ aws s3 ls
 ```
 
+![img_1.png](img_1.png)
+
 ## CLI을 이용한 파일 복사
 
 ### 명령어 형식
@@ -67,6 +71,10 @@ $ aws s3 cp log.txt s3://yonghwan-bucket2/
 ```shell
 $ aws s3 cp log.txt s3://yonghwan-bucket2/hello/
 ```
+
+![img_2.png](img_2.png)
+
+![img_3.png](img_3.png)
 
 ## CLI을 이용한 파일 다운로드
 
@@ -126,22 +134,23 @@ $ aws s3api put-object-acl --bucket 버킷이름 --key 객체경로 --acl 지정
 $ aws s3api put-object-acl --bucket yonghwan-bucket2 --key images/bspeak.jpg --acl public-read
 ```
 
-## 버킷을 bucket policy를 사용하여 public으로 변경하기
-
-1. 특정 버킷 정책 생성
-2. 정책 생성기 작성
-    1. Select Type of Policy : S3 Bucket Policy
-    2. Effect : Allow
-    3. Principal : *
-    4. Action : getObject
-    5. ARN : 버킷ARN경로/*
-3. 생성한 정책을 버킷 정책에 붙여넣고 저장하기
-
 ## 정적 웹 사이트 호스팅 기능 사용하기
 
 1. 버킷 선택 -> 속성 -> 정적 웹사이트 호스팅의 편집 선택 -> 정적 웹사이트 활성화
+
+![img_4.png](img_4.png)
+
+![img_5.png](img_5.png)
+
 2. 인덱스 문서와 오류 문서 html 파일 입력
+
+![img_6.png](img_6.png)
+
 3. 변경사항 저장하고 정적 웹사이트가 되는지 확인합니다.
+
+![img_7.png](img_7.png)
+
+![img_8.png](img_8.png)
 
 ## Multipart upload
 

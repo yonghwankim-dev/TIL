@@ -65,6 +65,11 @@ $ aws --version
 ![img_8.png](img_8.png)
 
 3. 보안 자격 증명 탭 선택 -> 액세스 키 만들기 -> Command Line Interface 선택 -> 액세스 키 만들기
+
+![img_10.png](img_10.png)
+
+![img_11.png](img_11.png)
+
 4. 액세스 키 csv 파일 다운로드
 
 5. CLI에서 aws 인증

@@ -1,6 +1,6 @@
 # EC2_실습
 
-## ESBS 스냅샷
+## EBS 스냅샷
 
 - EBS 스냅샷 : EBS 데이터를 백업하는 것
 - 리전 서비스
@@ -48,7 +48,6 @@
 
 ![img_5.png](img_5.png)
 
-
 ## AMI를 이용한 새로운 인스턴스 생성
 
 1. AMI 선택
@@ -83,15 +82,31 @@ $ curl -w '\n' http://169.254.169.254/latest/meta-data/public-ipv4
 
 1. 역할 만들기
     - 액세스 관리 -> 역할 -> 역할 만들기 -> AWS 서비스 선택
+
+![img_6.png](img_6.png)
+
+![img_7.png](img_7.png)
+
 2. AmazonS3FullAccess 정책 선택
+
+![img_8.png](img_8.png)
+
 3. 검토 정보 입력
     - 이름 : ec2-s3-full
 
+![img_9.png](img_9.png)
+
 ### 개발 계정이 인스턴스에 대해서 IAM 역할 수정을 할 수 있도록 policy 생성
+
+0. IAM 계정으로 접속
 
 1. ec2-role-policy 정책 생성
     - 액세스 관리 -> 정책 -> 정책 생성
     - 다음과 같이 JSON 형식으로 정책 편집
+
+![img_10.png](img_10.png)
+
+![img_11.png](img_11.png)
 
 ```shell
 {
@@ -119,14 +134,25 @@ $ curl -w '\n' http://169.254.169.254/latest/meta-data/public-ipv4
 2. 개발자 그룹에 ec2-role-policy 정책 추가
     - 사용자 그룹 -> codesquad_developer -> 권한 -> 정책 연결 -> ec2-role-policy 추가
 
+![img_12.png](img_12.png)
+
+![img_13.png](img_13.png)
+
 3. 개발자 계정으로 접속
 4. EC2 인스턴스에 EC2 Role(ec2-s3-full) 연결
     - 인스턴스 -> 작업 -> 보안 -> IAM 역할 수정 -> ec2-s3-full 선택
+
+![img_15.png](img_15.png)
+
+![img_16.png](img_16.png)
+
 5. 인스턴스를 연결해서 다음 명령어가 수행되는지 확인
 
 ```shell
 $ aws s3 ls
 ```
+
+![img_17.png](img_17.png)
 
 ## 팁: EC2 유형 변경
 

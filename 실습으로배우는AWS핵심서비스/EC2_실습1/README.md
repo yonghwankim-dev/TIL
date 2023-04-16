@@ -24,11 +24,13 @@
     1. 크키 : 8
     2. 볼륨 유형 : 범용 SSD, 기본값
 7. 태그 추가
-    1. 키 : Name, 값 : ds-cafe-demo
+    1. 키 : Name, 값 : be-java-cafe-max
 8. 보안 그룹 생성
     1. demo-sg
 9. 키 페어 생성
-    1. 이름 : ds-cafe-key
+    1. 이름 : be-java-cafe-max
+
+https://yonghwankim-dev.tistory.com/583
 
 ## EC2 접속 방법
 
@@ -42,6 +44,8 @@
 
 1. 인스턴스 선택
 2. 인스턴스 상태 -> 인스턴스 중지 또는 종료
+
+![img.png](img.png)
 
 인스턴스는 중지 중이여도 디스크가 살아있기 때문에 요금이 계속 나오게됩니다.
 
@@ -60,6 +64,13 @@
 4. SSH 연결
     - 명령어 형식 : ssh -i pem파일.pem ec2-user@public-ip
 
+```shell
+$ chmod 400 be-java-cafe-max.pem
+$ ssh -i "be-java-cafe-max.pem" ec2-user@ec2-13-209-48-7.ap-northeast-2.compute.amazonaws.com
+```
+
+![img_1.png](img_1.png)
+
 ## 인스턴스 팁
 
 - 안쓰는 인스턴스는 중지 또는 종료
@@ -71,13 +82,25 @@
 ## 탄력적 IP 사용 방법
 
 1. 네트워크 보안 -> 탄력적 IP 선택
+
+![img_2.png](img_2.png)
+
 2. 생성
 3. 탄력적 IP Name 작성
 4. 작업 -> 탄력적 IP 주소 연결
+
+![img_3.png](img_3.png)
+
 5. 인스턴스 선택
+
+![img_4.png](img_4.png)
+
 6. IP 확인후 SSH 접속
 
+![img_5.png](img_5.png)
+
 ## 탄력적 IP 주의 사항
+
 - 사용중에는 무료
 - 사용하지 않을 경우 과금됨. 월 4천원 정도
 - 탄력적 IP를 연결하지 않을 때 과금되고 탄력적 IP와 연결된 인스턴스가 중지 상태일때 과금됩니다.
