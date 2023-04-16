@@ -1,6 +1,9 @@
 # 실습으로 배우는 AWS 핵심 서비스
 
 1. [IAM 실습](IAM실습/README.md)
+    - MFA 할당
+    - IAM 계정 생성
+    - 개발자 계정 생성
 2. [IAM_Policy](IAM_Policy/README.md)
 3. [IAM_Role](IAM_Role/README.md)
 4. [IAM_Role_실습](IAM_Role_실습/README.md)
