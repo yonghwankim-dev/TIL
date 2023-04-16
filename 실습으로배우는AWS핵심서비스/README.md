@@ -11,4 +11,7 @@
 9. [EC2_실습1](EC2_실습1/README.md)
 10. [EC2_실습2](EC2_실습2/README.md)
 11. [VPC](VPC/README.md)
+12. [VPC_실습](VPC_실습/README.md)
+13. [RDS와_데이터베이스_기초](RDS와_데이터베이스_기초/README.md)
 
+### TODO : RDS RDS와 데이터베이스 기초 학습
