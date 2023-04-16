@@ -92,6 +92,7 @@ $ aws iam list-users
 ```
 
 ![img_9.png](img_9.png)
+
 위와 같은 결과가 나오면 정상입니다. 왜냐하면 아직 현재 사용자가 CLI에 IAM Role을 등록해주지 않았기 때문입니다.
 
 8. config, credentials 파일 내용 확인
