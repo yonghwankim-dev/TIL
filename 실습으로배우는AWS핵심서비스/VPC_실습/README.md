@@ -4,6 +4,9 @@
 
 1. VPC 대시보드 입장
 2. VPC 생성
+
+![img_10.png](img_10.png)
+
 3. 이름 작성
 4. IPv4 CIDR 블록 지정
 5. 생성
@@ -23,20 +26,20 @@
 
 1. 서브넷 입장
 2. 서브넷 생성
+
+![img_11.png](img_11.png)
+
 3. 이전 생성한 VPC 선택
+
+![img_12.png](img_12.png)
+
 4. 서브넷 2개 생성
-    - 이름 : yonghwan-public
-    - 가용영역 : ap-northeast-2a
-    - CIDR : 10.1.1.0/24
 
-    - 이름 : yonghwan-private
-    - 가용영역 : ap-northeast-2b
-    - CIDR : 10.1.2.0/24
+![img_13.png](img_13.png)
 
-5. 서브넷 생성
-6. 서브넷의 라우팅 테이블을 확인하여 10.1.0.0/16인지 확인
+![img_14.png](img_14.png)
 
-![img_1.png](img_1.png)
+5. 서브넷의 라우팅 테이블을 확인하여 10.1.0.0/16인지 확인
 
 ![img_2.png](img_2.png)
 
@@ -50,17 +53,20 @@
 ## 인터넷 게이트웨이 생성 실습
 
 1. 인터넷 게이트웨이 메뉴 클릭
+
+![img_15.png](img_15.png)
+
 2. 인터넷 게이트웨이 생성
 
-- 이름 : yonghwan-igw
+![img_16.png](img_16.png)
 
-3. 생성
-4. VPC에 연결 클릭
+3. VPC에 연결 클릭
+
+![img_17.png](img_17.png)
+
 5. 이전에 만든 vpc 선택
 
-![img_3.png](img_3.png)
-
-![img_5.png](img_5.png)
+![img_18.png](img_18.png)
 
 # Public subnet
 
@@ -80,31 +86,45 @@
 
 # public subnet 라우팅 테이블 연결 및 확인
 
-## 인스턴스 생성
-
-1. 인스턴스 생성
-2. 네트워크와 서브넷 설정
-    - 네트워크 : yonghwan-vpc
-    - 서브넷 : ap-northeast-2a
-3. 퍼블릭 IP 자동 할당 : 활성화
-4. 스토리지 8G
-5. 태그 추가
-    - Name - public-ec2
-6. 보안 그룹 구성
-    - 보안 그룹 새로 만들기 : yonghwan-public-sg
-
 ## 라우팅 테이블 생성
 
-1. 라우팅 테이블 메뉴 접속
+EC2 인스턴스를 다시 한번 만들고 만드는 도중 인스턴스 생성 설정에서 우리가 만든 VPC를 연결을 실습하고자 합니다.
+
+1. 인스턴스 생성
+
+![img_28.png](img_28.png)
+
+![img_29.png](img_29.png)
+
+![img_30.png](img_30.png)
+
+3. 라우팅 테이블 메뉴 접속
+
+![img_19.png](img_19.png)
+
 2. 라우팅 테이블 생성
-    - 이름 : yonghwan-pub-rt
+
+![img_20.png](img_20.png)
+
 3. 라우팅 테이블 편집
+
+![img_22.png](img_22.png)
+
 4. 라우팅 추가
-    - 0.0.0.0/0 => 모든 IP에 대해서 IGW에 연결하라는 의미
+
+![img_21.png](img_21.png)
 
 ## 라우팅 테이블을 서브넷에 연결하기
 
-1. yonghwan-public 서브넷을 yonghwan-pub-rt로 연결하기
+1. public한 서브넷 ID를 선택하여 들어갑니다.
+
+![img_23.png](img_23.png)
+
+3. yonghwan-public 서브넷을 yonghwan-pub-rt로 연결하기
+
+![img_24.png](img_24.png)
+
+![img_25.png](img_25.png)
 
 # Private Subnet과 NAT Gateway
 
@@ -125,7 +145,13 @@
 
 1. 서브넷 메뉴 입장
 2. public 서브넷 선택
+
+![img_26.png](img_26.png)
+
 3. 작업 -> 서브넷 설정 편집 선택
+
+![img_27.png](img_27.png)
+
 4. 퍼블릭 IPv4 주소 자동 할당 활성화 선택
 
 ![img_9.png](img_9.png)

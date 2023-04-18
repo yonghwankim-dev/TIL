@@ -39,6 +39,13 @@
 
 11. [VPC](VPC/README.md)
 12. [VPC_실습](VPC_실습/README.md)
+    - VPC 생성
+    - 서브넷 생성
+    - 인터넷 게이트웨이 생성 및 VPC 연결
+    - 라우팅 테이블 생성
+    - 라우팅 테이블을 서브넷에 연결하기
+    - public 서브넷 ip 자동 할당
+
 13. [RDS와_데이터베이스_기초](RDS와_데이터베이스_기초/README.md)
 
 ### TODO : RDS RDS와 데이터베이스 기초 학습
