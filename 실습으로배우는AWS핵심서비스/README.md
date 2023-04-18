@@ -47,5 +47,10 @@
     - public 서브넷 ip 자동 할당
 
 13. [RDS와_데이터베이스_기초](RDS와_데이터베이스_기초/README.md)
-
-### TODO : RDS RDS와 데이터베이스 기초 학습
+    - DB 서브넷 그룹 생성
+    - RDS 인스턴스 생성
+    - RDS 연결
+    - RDS 인스턴스 SSH 연결
+    - RDS 백업
+        - 스냅샷 생성
+        - Point Time Recovery
