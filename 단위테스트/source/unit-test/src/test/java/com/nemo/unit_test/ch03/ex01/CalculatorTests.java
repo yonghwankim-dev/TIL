@@ -1,4 +1,4 @@
-package com.nemo.unit_test;
+package com.nemo.unit_test.ch03.ex01;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
