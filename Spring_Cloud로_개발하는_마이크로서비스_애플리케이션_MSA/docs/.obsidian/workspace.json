@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapter15/Microservice 모니터링.md",
+                "file": "chapter13/데이터 동기화를 위한 Apache Kafaka의 활용 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Microservice 모니터링"
+              "title": "데이터 동기화를 위한 Apache Kafaka의 활용 2"
             }
           }
         ],
@@ -186,8 +186,9 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "e5e855fcac9ca0fd",
+  "active": "a4b0582fe568e36f",
   "lastOpenFiles": [
+    "chapter15/Microservice 모니터링.md",
     "chapter19/SpringBoot3.2 + Spring Cloud 2023.md",
     "imgs/Pasted image 20260903170006.png",
     "imgs/Pasted image 20260903165924.png",
@@ -206,7 +207,6 @@
     "chapter18/무제 1.md",
     "chapter18",
     "chapter14/장애 처리와 Mircoservice 분산 추적.md",
-    "chapter15/Microservice 모니터링.md",
     "chapter16/애플리케이션 배포를 위한 컨테이너 가상화.md",
     "chapter13/데이터 동기화를 위한 Apache Kafaka의 활용 2.md",
     "chapter11/Mircoservice간 통신.md",

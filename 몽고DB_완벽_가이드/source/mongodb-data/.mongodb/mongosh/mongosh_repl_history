@@ -1,0 +1,689 @@
+db.people.insertOne({"name": "jim", "random": Math.random()});db.people.insertOne({"name": "john", "random": Math.random()});db.people.insertOne({"name": "joe", "random": Math.random()});db.people.drop();
+cursor.hasNext()
+var cursor = db.collection.find().sort({"x": 1}).limit(1).skip(10);
+cursor.hasNext()
+var cursor = db.foo.find().sort({"x": 1}).limit(1).skip(10);
+cursor.hasNext()
+db.foo.find()
+cursor
+var cursor = db.foo.find().sort({"x": 1}).limit(1).skip(10);
+db.collection.find()
+});	print(x);cursor.forEach(function(x){var cursor = db.collection.find();
+cursor
+var cursor = db.collection.find();}	db.collection.insertOne({x: i});for(i=0; i<100; i++){
+});	}		return false;		}			}				}					return true;				if(current != other && this[current] == this[other]){			for(var other in this){		for(var current in this){	"$where" : function(){db.foo.find({
+});	}		return false;		}			}				}					return true;					print("Matched fields: " + current + " and " + other + " (Value: " + this[current] + ")");				if(current != other && this[current] == this[other]){			for(var other in this){		for(var current in this){	"$where" : function(){db.foo.find({
+});	}		return false;		}			}				}					return true;					print("other: ");					print("current: ");				if(current != other && this[current] == this[other]){			for(var other in this){		for(var current in this){	"$where" : function(){db.foo.find({
+});	}		return false;		}			}				}					return true;					print("other: ", other);					print("current: ", current);				if(current != other && this[current] == this[other]){			for(var other in this){		for(var current in this){	"$where" : function(){db.foo.find({
+});	}		return false;		}			}				}					return true;					console.log("other: ", other);					console.log("current: ", current);				if(current != other && this[current] == this[other]){			for(var other in this){		for(var current in this){	"$where" : function(){db.foo.find({
+});	}		return false;		}			}				}					return true;				if(current != other && this[current] == this[other]){			for(var other in this){		for(var current in this){	"$where" : function(){db.foo.find({
+db.foo.find();
+});	"watermelon": 4	"spinach": 4,	"apple": 8,db.foo.insertOne({});	"peach": 3	"banana": 6,	"apple": 1,db.foo.insertOne({db.foo.drop();
+use video;
+);	}		}			}				"score": {"$gte": 5}				"author": "joe",			"$elemMatch": {		"comments": {	{db.blog.find(
+);	}		"comments.score": {"$gte": 5}		"comments.author": "joe",	{db.blog.find(
+);  }    ]      { comment: '광고성 댓글입니다.', author: 'Spammer', score: 9, votes: -8, hidden: true }      { comment: '쿠키 영상은 몇 개인가요?', author: 'bob', score: 8, votes: 5 },      { comment: '스포일러 주의해주세요 ㅠㅠ', author: 'Alice', score: 5, votes: 2 },      { comment: '저도 이 영화 봤는데 정말 재미있었어요!', author: 'joe', score: 7, votes: 10 },      { comment: '저도 이 영화 봤는데 정말 재미있었어요!', author: 'joe', score: 5, votes: 10 },      { comment: '저도 이 영화 봤는데 정말 재미있었어요!', author: 'joe', score: 3, votes: 10 },		{ comment: '저도 이 영화 봤는데 정말 재미있었어요!', author: 'joe', score: 1, votes: 10 },    comments: [    content: '신작 영화 리뷰 및 솔직한 후기',  {db.blog.insertOne(db.blog.drop();
+);	}		"comments.score": {"$gte": 5}		"comments.author": "joe",	{db.blog.find(
+);	}		"comments.score": {"$gte", 5}		"comments.author": "joe",	{db.blog.find(
+);	}		"comments": {"author": "joe", "score": {"$gte": 5}}	{db.blog.find(
+);  }    ]      { comment: '광고성 댓글입니다.', author: 'Spammer', votes: -8, hidden: true }      { comment: '쿠키 영상은 몇 개인가요?', author: 'bob', votes: 5 },      { comment: '스포일러 주의해주세요 ㅠㅠ', author: 'Alice', votes: 2 },      { comment: '저도 이 영화 봤는데 정말 재미있었어요!', author: 'joe', score: 7, votes: 10 },      { comment: '저도 이 영화 봤는데 정말 재미있었어요!', author: 'joe', score: 5, votes: 10 },      { comment: '저도 이 영화 봤는데 정말 재미있었어요!', author: 'joe', score: 3, votes: 10 },		{ comment: '저도 이 영화 봤는데 정말 재미있었어요!', author: 'joe', score: 1, votes: 10 },    comments: [    content: '신작 영화 리뷰 및 솔직한 후기',  {db.blog.insertOne(db.blog.drop();
+);	}		"name.last": "Schmoe"		"name.first": "Joe",	{db.people.find(
+);	}		}			"last": "Schmoe"			"first": "Joe",		"name": {	{db.people.find(
+);	}		}			"last": "Schmoe"			"middle": "smith",			"first": "Joe",		"name": {	{db.people.insertOne(db.people.drop();
+);	}		}			"last": "Schmoe"			"first": "Joe",		"name": {	{db.people.find(
+);	}		}			"last": "Schmoe"			"first": "Joe",		"name": {	{db.people.insertOne(db.people.drop();
+);	}		}			"$elemMatch": {"$gt": 10, "$lt": 20}		"x": {	{db.test.find(
+);	}		"x": {"$gt": 10, "$lt": 20}	{db.test.find(
+);	]		{ "x": [5, 25] }		{ "x": 25 },		{ "x": 15 },		{ "x": 5 },	[db.test.insertMany(
+db.test.find()
+);	}		"comments.$": 1	{	},		"comments.author": "bob"	{db.blog.posts.find(
+);	}		"comments.$": 1	{	},		"comments.name": "bob"	{db.blog.posts.find(
+db.blog.posts.find();
+]);  }    ] // [bob 댓글 없음]      { comment: '재료 구매 링크', author: 'Bot123', votes: -15, hidden: true }      { comment: '요리 초보도 따라 하기 쉽네요.', author: 'Hannah', votes: 6 },    comments: [    content: '자취생을 위한 간단한 저녁 레시피',  {  },    ] // [bob 댓글 없음]      { comment: '좋은 글 잘 읽고 갑니다.', author: 'Grace', votes: 4 }      { comment: 'Aggregation 파이프라인 설명도 부탁드려요.', author: 'Frank', votes: 9 },      { comment: '인덱스 관련 부분이 정말 유익했습니다.', author: 'Eve', votes: 15 },    comments: [    content: '개발자 필독! MongoDB 성능 최적화 팁',  {  },    ]      { comment: '정보 감사합니다!', author: 'David', votes: 1 }      { comment: '주차 공간은 넉넉한 편인가요?', author: 'bob', votes: 3 }, // bob의 댓글 포함      { comment: '첫 번째 카페 분위기 완전 대박이네요.', author: 'Charlie', votes: 7 },    comments: [    content: '주말에 가기 좋은 카페 추천 TOP 5',  {  },    ]      { comment: '광고성 댓글입니다.', author: 'Spammer', votes: -8, hidden: true }      { comment: '쿠키 영상은 몇 개인가요?', author: 'bob', votes: 5 }, // bob의 두 번째 댓글      { comment: '스포일러 주의해주세요 ㅠㅠ', author: 'Alice', votes: 2 },      { comment: '저도 이 영화 봤는데 정말 재미있었어요!', author: 'bob', votes: 10 },    comments: [    content: '신작 영화 리뷰 및 솔직한 후기',  {db.blog.posts.insertMany([
+db.posts.drop();
+db.blog.posts.find()
+]);  }    ] // [bob 댓글 없음]      { comment: '재료 구매 링크', author: 'Bot123', votes: -15, hidden: true }      { comment: '요리 초보도 따라 하기 쉽네요.', author: 'Hannah', votes: 6 },    comments: [    content: '자취생을 위한 간단한 저녁 레시피',  {  },    ] // [bob 댓글 없음]      { comment: '좋은 글 잘 읽고 갑니다.', author: 'Grace', votes: 4 }      { comment: 'Aggregation 파이프라인 설명도 부탁드려요.', author: 'Frank', votes: 9 },      { comment: '인덱스 관련 부분이 정말 유익했습니다.', author: 'Eve', votes: 15 },    comments: [    content: '개발자 필독! MongoDB 성능 최적화 팁',  {  },    ]      { comment: '정보 감사합니다!', author: 'David', votes: 1 }      { comment: '주차 공간은 넉넉한 편인가요?', author: 'bob', votes: 3 }, // bob의 댓글 포함      { comment: '첫 번째 카페 분위기 완전 대박이네요.', author: 'Charlie', votes: 7 },    comments: [    content: '주말에 가기 좋은 카페 추천 TOP 5',  {  },    ]      { comment: '광고성 댓글입니다.', author: 'Spammer', votes: -8, hidden: true }      { comment: '쿠키 영상은 몇 개인가요?', author: 'bob', votes: 5 }, // bob의 두 번째 댓글      { comment: '스포일러 주의해주세요 ㅠㅠ', author: 'Alice', votes: 2 },      { comment: '저도 이 영화 봤는데 정말 재미있었어요!', author: 'bob', votes: 10 },    comments: [    content: '신작 영화 리뷰 및 솔직한 후기',  {db.posts.insertMany([db.blog.posts.drop();
+db.blog.posts.find();
+);	}		"comments.$": 1	{	},		"comments.name": "bob"	{db.blog.posts.find(
+show tables;
+use video;
+show databases;
+);	}		}			"$slice": -1		"comments": {	{db.blog.posts.findOne(criteria, };	"_id": "6a8d41edb90de1d138fdeff4"criterial = {
+);	}		}			"$slice": [2, 10]		"comments": {	{db.blog.posts.findOne(criteria, };	"_id": "6a8d41edb90de1d138fdeff4"criterial = {
+);	}		}			"$slice": -10		"comments": {	{db.blog.posts.findOne(criteria, };	"_id": "6a8d41edb90de1d138fdeff4"criterial = {
+);	}		}			"$slice": 10		"comments": {	{db.blog.posts.findOne(criteria, 
+};	"_id": "6a8d41edb90de1d138fdeff4"criterial = {
+db.blog.posts.find();
+]);  }    ]      { comment: 'click this link', author: 'BotX', votes: -20, hidden: true }      { comment: '약간 지루하긴 했어요.', author: 'Frank', votes: 0 },      { comment: '저도 이 영화 완전 강추해요!', author: 'Eve', votes: 15 },      { comment: '추천해주신 영화 잘 봤습니다.', author: 'Dave', votes: 8 },    comments: [    content: '주말 일상 공유 및 영화 추천',  {  },    ]      { comment: 'buy cheap shoes', author: 'Spammer1', votes: -12, hidden: true }      { comment: '면 삶는 시간을 더 자세히 알려주세요.', author: 'Charlie', votes: 4 },      { comment: '정말 맛있어 보여요!', author: 'Bob', votes: 12 },    comments: [    content: '오늘의 요리 레시피: 집에서 만드는 파스타',  {  },    ]      { comment: 'vacation getaways10', author: 'Lynn', votes: -7, hidden: true }      { comment: 'vacation getaways9', author: 'Lynn', votes: -7, hidden: true },      { comment: 'vacation getaways8', author: 'Lynn', votes: -7, hidden: true },      { comment: 'vacation getaways7', author: 'Lynn', votes: -7, hidden: true },      { comment: 'vacation getaways6', author: 'Lynn', votes: -7, hidden: true },      { comment: 'vacation getaways5', author: 'Lynn', votes: -7, hidden: true },      { comment: 'vacation getaways4', author: 'Lynn', votes: -7, hidden: true },      { comment: 'vacation getaways3', author: 'Lynn', votes: -7, hidden: true },      { comment: 'vacation getaways2', author: 'Lynn', votes: -7, hidden: true },      { comment: 'vacation getaways1', author: 'Lynn', votes: -7, hidden: true },      { comment: 'free watches', author: 'Alice', votes: -5, hidden: true },      { comment: 'i thought it was too short', author: 'Claire', votes: 3 },      { comment: 'good post', author: 'Jim', votes: 1 },    comments: [    content: 'MongoDB 사용법에 관한 기초 가이드입니다.',  {db.blog.posts.insertMany([
+db.blog.posts.drop();
+]);  }    ]      { comment: 'click this link', author: 'BotX', votes: -20, hidden: true }      { comment: '약간 지루하긴 했어요.', author: 'Frank', votes: 0 },      { comment: '저도 이 영화 완전 강추해요!', author: 'Eve', votes: 15 },      { comment: '추천해주신 영화 잘 봤습니다.', author: 'Dave', votes: 8 },    comments: [    content: '주말 일상 공유 및 영화 추천',  {  },    ]      { comment: 'buy cheap shoes', author: 'Spammer1', votes: -12, hidden: true }      { comment: '면 삶는 시간을 더 자세히 알려주세요.', author: 'Charlie', votes: 4 },      { comment: '정말 맛있어 보여요!', author: 'Bob', votes: 12 },    comments: [    content: '오늘의 요리 레시피: 집에서 만드는 파스타',  {  },    ]      { comment: 'vacation getaways10', author: 'Lynn', votes: -7, hidden: true }      { comment: 'vacation getaways9', author: 'Lynn', votes: -7, hidden: true }      { comment: 'vacation getaways8', author: 'Lynn', votes: -7, hidden: true }      { comment: 'vacation getaways7', author: 'Lynn', votes: -7, hidden: true }      { comment: 'vacation getaways6', author: 'Lynn', votes: -7, hidden: true }      { comment: 'vacation getaways5', author: 'Lynn', votes: -7, hidden: true }      { comment: 'vacation getaways4', author: 'Lynn', votes: -7, hidden: true }      { comment: 'vacation getaways3', author: 'Lynn', votes: -7, hidden: true }      { comment: 'vacation getaways2', author: 'Lynn', votes: -7, hidden: true }      { comment: 'vacation getaways1', author: 'Lynn', votes: -7, hidden: true }      { comment: 'free watches', author: 'Alice', votes: -5, hidden: true },      { comment: 'i thought it was too short', author: 'Claire', votes: 3 },      { comment: 'good post', author: 'Jim', votes: 1 },    comments: [    content: 'MongoDB 사용법에 관한 기초 가이드입니다.',  {db.posts.insertMany([
+db.blog.posts.drop();
+);	}		}			"$slice": 10		"comments": {	{db.blog.posts.findOne(criteria, 
+criteria={};
+db.blog.posts.find();
+show tables;
+use video;
+show databases;
+db.food.find({"size": {"$gt": 3}})
+db.food.find();
+);	}		}			"size": 1		"$inc": {		},			"fruit": "strawberry"		"$push": {	{db.food.updateMany(criteria, 
+criteria = {};
+db.food.insertOne({"_id": 3, "fruit": ["cherry", "banana", "apple"]});db.food.insertOne({"_id": 2, "fruit": ["apple", "kumquat", "orange"]});db.food.insertOne({"_id": 1, "fruit": ["apple", "banana", "peach"]});
+db.food.drop();
+db.food.find();
+);	}		}			"size": 1		"$inc": {		},			"fruit": "strawberry"		"$push": {	{db.food.update(criteria, 
+criteria = {};
+db.food.find({"fruit": {"$size": 3}});
+db.food.find({"fruit.2": "peach"});
+db.food.find({"fruit": ["banana", "apple", "peach"]});
+db.food.find({"fruit": ["apple", "banana"]});
+db.food.find({"fruit": ["apple", "banana", "peach"]})
+);	}		}			$all: ["apple", "banana"]		"fruit": {db.food.find({ 
+db.food.find("fruit": {$all: ["apple", "banana"]});
+db.food.find({$all: ["apple", "banana"]});
+db.food.find({"$all": ["apple", "banana"]});
+db.food.find();
+db.food.insertOne({"_id": 3, "fruit": ["cherry", "banana", "apple"]});db.food.insertOne({"_id": 2, "fruit": ["apple", "kumquat", "orange"]});db.food.insertOne({"_id": 1, "fruit": ["apple", "banana", "peach"]});
+db.food.drop();
+db.food.find()
+db.foo.find()
+db.food.insertOne({"id": 3, "fruit": ["cherry", "banana", "apple"]});db.food.insertOne({"id": 2, "fruit": ["apple", "kumquat", "orange"]});db.food.insertOne({"id": 1, "fruit": ["apple", "banana", "peach"]});
+db.food.drop();
+db.food.find({"fruit": "banana"});
+);	}		"fruit": ["apple", "banana", "peach"]	{db.food.insertOne(
+db.foo.find({"bar": /baz/})
+db.foo.insertOne({"bar": /baz/})
+db.users.find({"name": /joey?/i});
+)	}		"name": "joey"	{db.users.insertOne(
+)	}		"name": "joey"	{db.insertOne(
+db.users.find({"name": /joey?/i});
+db.users.find({"name": {"$regex" : /joe/i }})
+]);	},		"name": "John"	{	},		"name": "Joe"	{	},		"name": "joea"	{	},		"name": "joe"	{db.users.insertMany([
+db.users.drop();
+db.users.find({"name": {"$regex" : /joe/i }})
+db.c.find({"z" : {"$eq" : null, "$exists": true}})
+db.c.find();
+db.c.insertOne({"z": null});
+db.c.insertOne({"z", null});
+db.c.find({"z" : {"$eq" : null, "$exists": true}})
+db.c.find({"z": null})
+db.c.find({"y": null});
+db.c.find()
+]);	}		"y": 2	{	},		"y": 1	{	},		"y": null	{db.c.insertMany([
+db.c.drop();
+db.c.find()
+)	}		"id_num": {"$not" : {"$mod": [5,1]}}	{db.users.find(
+)	}		"id_num": {"$mod": [5,1]}	{db.users.find(
+)	}		]			{"winner": true}			{"ticker_no" : {"$in": [725]}},		"$or": [	{db.raffle.find(
+)	}		]			{"winner": true}			{"ticker_no" : {"$in": [725, 542, 390]}},		"$or": [	{db.raffle.find(
+)	}		"$or": [{"ticker_no": 725}, {"winner": true}]	{db.raffle.find(
+)	}		}			"$nin" : [725, 542, 390]		"ticker_no" : {	{db.raffle.find(
+)	}			}				"$in": [12345, "joe"]			{		"user_id": 	{db.users.find(
+);	}		}			"$in": [725, 542, 390]		"ticker_no": {	{db.raffle.find(
+)	]		{"ticker_no": [725, 542, 390]}		{"ticker_no": [1,2,3]},		{"ticker_no": [725, 542, 390]},	[db.raffle.insertMany(
+db.raffle.drop();
+db.stock.find({"in_stock": "this.num_sold"})
+db.users.find({}, {"username": 1, "_id": 0})
+db.users.find({}, {"username": 1, "email": 1})
+]);	}		"phone": "010-3333-3333"		"email": "bread@example.com",		"username": "bread",	{	},		"phone": "010-2222-2222"		"email": "bob@example.com",		"username": "bob",	{	},		"phone": "010-1111-1111"		"email": "joe@example.com",		"username": "joe",	{db.users.insertMany([
+db.users.drop();
+)	}		"age": 27		"username": "joe", 	{db.users.find(
+db.users.find({"username": "joe"})
+db.users.find({"age": 27})
+db.users.find()
+show tables;
+tables;
+/dt
+dt
+\dt
+\d
+dt
+use video;
+show databases;
+dt
+\dt
+)	}		"id_num": {"$not" : {"$mod": [5,1]}}	{db.users.find(
+)	}		"id_num": {"$mod": [5,1]}	{db.users.find(
+cls
+)	}		"id_num": {"$mod": [5,1]}	{db.users.find(
+db.users.find();
+]);  { username: "victor", email: "victor@example.com", phone: "010-5566-7788", id_num: 23 }  { username: "tina", email: "tina@example.com", phone: "010-4455-6677", id_num: 22 },  { username: "sam", email: "sam@example.com", phone: "010-3344-5566", id_num: 21 },  { username: "rachel", email: "rachel@example.com", phone: "010-2233-4455", id_num: 20 },  { username: "quinn", email: "quinn@example.com", phone: "010-1122-3344", id_num: 19 },  { username: "peter", email: "peter@example.com", phone: "010-9090-9090", id_num: 18 },  { username: "olivia", email: "olivia@example.com", phone: "010-8080-8080", id_num: 17 },  { username: "nathan", email: "nathan@example.com", phone: "010-7070-7070", id_num: 16 },  { username: "mia", email: "mia@example.com", phone: "010-6060-6060", id_num: 15 },  { username: "leo", email: "leo@example.com", phone: "010-5050-5050", id_num: 14 },  { username: "kate", email: "kate@example.com", phone: "010-4040-4040", id_num: 13 },  { username: "jack", email: "jack@example.com", phone: "010-3030-3030", id_num: 12 },  { username: "ian", email: "ian@example.com", phone: "010-2020-2020", id_num: 11 },  { username: "hannah", email: "hannah@example.com", phone: "010-1010-1010", id_num: 10 },  { username: "grace", email: "grace@example.com", phone: "010-9999-9999", id_num: 9 },  { username: "frank", email: "frank@example.com", phone: "010-8888-8888", id_num: 8 },  { username: "eva", email: "eva@example.com", phone: "010-7777-7777", id_num: 7 },  { username: "david", email: "david@example.com", phone: "010-6666-6666", id_num: 6 },  { username: "charlie", email: "charlie@example.com", phone: "010-5555-5555", id_num: 5 },  { username: "alice", email: "alice@example.com", phone: "010-4444-4444", id_num: 4 },db.users.insertMany([
+db.users.find()
+);  { $set: { id_num: 3 } }  { username: "bread" },db.users.updateOne(
+);  { $set: { id_num: 2 } }  { username: "bob" },db.users.updateOne(
+);  { $set: { id_num: 3 } }  { username: "bread" },db.users.updateOne(// bread에게 id_num: 3 부여);  { $set: { id_num: 2 } }  { username: "bob" },db.users.updateOne(// bob에게 id_num: 2 부여);  { $set: { id_num: 1 } }  { username: "joe" },db.users.updateOne(
+db.users.find()
+)	}		"id_num": {"$mod": [5,1]}	{db.users.find(
+)	}		]			{"winner": true}			{"ticker_no" : {"$in": [725, 542, 390]}},		"$or": [	{db.raffle.find(
+)	}		"$or": [{"ticker_no": 725}, {"winner": true}]	{db.raffle.find(
+)	}		}			"$nin" : [725, 542, 390]		"ticker_no" : {	{db.raffle.find(
+show tables;
+use video;
+)	}			}				"$in": [12345, "joe"]			{		"user_id": 	{db.users.find(
+);	}		}			"$in": [725, 542, 390]		"ticker_no": {	{db.raffle.find(
+)	]		{"ticker_no": [725, 542, 390]}		{"ticker_no": [1,2,3]},		{"ticker_no": [725, 542, 390]},	[db.raffle.insertMany(
+db.raffle.drop();
+db.stock.find({"in_stock": "this.num_sold"})
+db.users.find({}, {"username": 1, "_id": 0})
+db.users.find({}, {"username": 1, "email": 1})
+]);	}		"phone": "010-3333-3333"		"email": "bread@example.com",		"username": "bread",	{	},		"phone": "010-2222-2222"		"email": "bob@example.com",		"username": "bob",	{	},		"phone": "010-1111-1111"		"email": "joe@example.com",		"username": "joe",	{db.users.insertMany([
+db.users.drop();
+db.users.find({}, {"username": 1, "email": 1})
+]);	}		"email": "bread@example.com"		"username": "bread",	{	},		"email": "bob@example.com"		"username": "bob",	{	},		"email": "joe@example.com"		"username": "joe",	{db.users.insertMany([
+db.users.drop();
+db.users.find()
+db.users.find({}, {"username": 1, "email": 1})
+);	}		"returnNewDocument": true		"$sort": {"priority": -1},	{	{"$set": {"status": "RUNNING"}},	{"status": "READY"},db.processes.findOneAndUpdate(
+);	}		"priority": 3		"status" : "READY",	{db.processes.insertOne();	}		"priority": 2		"status" : "READY",	{db.processes.insertOne();	}		"priority": 1		"status" : "READY",	{db.processes.insertOne(
+db.processes.drop();
+);	{"$sort": {"priority": -1}}	{"$set": {"status": "RUNNING"}},	{"status": "READY"},db.processes.findOneAndUpdate(
+db.processes.find()
+);	}		"priority": 3		"status" : "READY",	{db.processes.insertOne();	}		"priority": 2		"status" : "READY",	{db.processes.insertOne();	}		"priority": 1		"status" : "READY",	{db.processes.insertOne(
+db.processes.drop()
+db.processes.find()
+var cursor = db.processes.find( { "status": "READY" } ); cursor.sort({ "priority": -1 }).limit(1); while ((ps = cursor.next()) != null) { var result = db.processes.updateOne( { "_id": ps._id, "status": "READY" }, { "$set": { "status": "RUNNING" } } ); if (result.modifiedCount === 1) { do_something(ps); db.processes.updateOne( { "_id": ps._id }, { "$set": { "status": "DONE" } } ); break; } cursor = db.processes.find({ "status": "READY" }); cursor.sort({ "priority": -1 }).limit(1); }
+.editor
+do_something
+);	}		"priority": 3		"status" : "READY",	{db.processes.insertOne();	}		"priority": 2		"status" : "READY",	{db.processes.insertOne();	}		"priority": 1		"status" : "READY",	{db.processes.insertOne(
+db.processes.drop();
+db.processes.drop()
+db.processes.find()
+var cursor = db.processes.find( { "status": "READY" } ); cursor.sort({ "priority": -1 }).limit(1); while ((ps = cursor.next()) != null) { var result = db.processes.updateOne( { "_id": ps._id, "status": "READY" }, { "$set": { "status": "RUNNING" } } ); if (result.modifiedCount === 1) { do_something(ps); db.processes.updateOne( { "_id": ps._id }, { "$set": { "status": "DONE" } } ); break; } cursor = db.processes.find({ "status": "READY" }); cursor.sort({ "priority": -1 }).limit(1); }
+.editor
+}	console.log(`[작업 시작] Process ID: ${process._id}, Priority: ${process.priority} 작업을 처리 중입니다...`); function do_something(process) { 
+db.processes.find()
+use video;
+var cursor = db.processes.find( { "status": "READY" } ); cursor.sort({ "priority": -1 }).limit(1); while ((ps = cursor.next()) != null) { var result = db.processes.updateOne( { "_id": ps._id, "status": "READY" }, { "$set": { "status": "RUNNING" } } ); if (result.modifiedCount === 1) { do_something(ps); db.processes.updateOne( { "_id": ps._id }, { "$set": { "status": "DONE" } } ); break; } cursor = db.processes.find({ "status": "READY" }); cursor.sort({ "priority": -1 }).limit(1); }
+.editor
+cursor.sort({"priority": -1}).limit(1);
+);	{"status": "READY"}var cursor = db.processes.find(
+cursor
+db.processes.find()
+use video;
+	);		}			"$set": {"status": "RUNNING"}		{		},			"status": "READY"			"_id": ps._id,		{	var result = db.processes.updateOne(while((ps = cursor.next()) != null){
+cursor.sort({"priority": -1}).limit(1);
+);	{"status": "READY"}var cursor = db.processes.find(
+db.processes.find()
+);	}		"priority": 3		"status" : "READY",	{db.processes.insertOne();	}		"priority": 2		"status" : "READY",	{db.processes.insertOne();	}		"priority": 1		"status" : "READY",	{db.processes.insertOne(
+db.processes.find();
+db.processes.drop();
+db.processes.find()
+)	{"$set" : {"status": "DONE"}}	{"_id": ps._id},db.processes.updateOne(
+do_something(ps)
+}	console.log(`[작업 시작] Process ID: ${process._id}, Priority: ${process.priority} 작업을 처리 중입니다...`); function do_something(process) { 
+);	{"$set": {"status": "RUNNING"}}	{"_id": ps._id},db.processes.updateOne(
+			.next();			.limit(1)ps = cursor.sort({"priority": -1})
+var cursor = db.processes.find({"status" : "READY"});
+db.processes.find()
+);	}		"priority": 3		"status" : "READY",	{db.processes.insertOne();	}		"priority": 2		"status" : "READY",	{db.processes.insertOne();	}		"priority": 1		"status" : "READY",	{db.processes.insertOne(
+);	}		"priority": Y		"status" : "READY",	{db.processes.insertOne(
+db.processes.drop();
+db.users.find()
+)	}		"$set" : { "gift": "Haapy Birthday!" }	{	},		"birthday": "10/13/1978"	{db.users.updateMany(
+db.users.find()
+)	]		{birthday: "10/13/1978"}		{birthday: "10/13/1978"},		{birthday: "10/13/1978"},	[db.users.insertMany(
+db.users.find()
+db.users.drop()
+db.users.find()
+)	]		{birthday: "10/13/1978"}		{birthday: "10/13/1978"},		{birthday: "10/13/1978"},	[db.users.insertMany(
+db.users.drop()
+db.users.find()
+)	]		{birthday: "10/13/1978"}		{birthday: "10/13/1978"},		{birthday: "10/13/1978"},	[db.users.insertMany(
+use video;
+	]		{birthday: "10/13/1978"}		{birthday: "10/13/1978"},		{birthday: "10/13/1978"},	[db.users.insertMany(
+exit
+version
+db.testcol.save(x)
+x
+db.testcol.save.drop()
+db.testcol.save(x)
+db.testcol.save
+db.testcol.save(x)
+x
+x.num = 42
+var x = db.testcol.findOne()
+show tables;
+db.testcol.insertOne({})
+show tables;
+use video
+show tables;
+dt
+db
+db.testcol.drop()
+db.testcol.findOne()
+db.testcol
+db.testcol.save(x)
+x
+x.num = 42
+var x = {};
+x
+x.num = 42
+var x = db.testcol.findOne()
+db.getCollection("stats").findOne()
+ddb.getCollection("stats").findOne()
+db.stats.findOne()
+)	{ upsert : true }	},		}			paddingSpace: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"			createdAt: new Date(),		"$setOnInsert": {		"$inc": { count: 1 },	{	},		"_id": "user_123"	{db.getCollection("stats").updateOne(
+)	{ upsert : true }	},		}			paddingSpace: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"			createdAt: new Date(),		"$setOnInsert": {		"$inc": { count: 1 },	{	},		"_id": "user_123"	{db.getCollection("stat")db.getCollection("stats").updateOne(
+db.stats()
+)	{ upsert : true }	},		}			paddingSpace: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"			createdAt: new Date(),		"$setOnInsert": {		"$inc": { count: 1 },	{	},		"_id": "user_123"	{db.stats.updateOne(
+db.stats.updateOne
+)	{ upsert : true }	},		}			paddingSpace: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"			createdAt: new Date(),		"$setOnInsert": {		"$inc": { count: 1 },	{	},		"_id": "user_123"	{db.stats.updateOne(
+use stats;
+		"$inc": { count: 1 },	{	},		"_id": "user_123"	{db.stats.updateOne(
+db.stats.updateOne( { "_id": "user_123" }, { /* 1. 수정할때마다 카운터 증가*/ "$inc": { count: 1 }, /* 2. 최초 생성(insert)될 때만, 패딩용 여유 필드 및 초기값 세팅*/ "$setOnInsert": { createdAt: new Date(), /* 100 byte 짜리 의미 없는 문자열로 디스크에 여유 공간(패딩)을 미리 확보해둠*/ paddingSpace: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" } }, { upsert: true } )
+.editor
+db.stats.updateOne( { "_id": "user_123" }, { // 1. 수정할때마다 카운터 증가 "$inc": { count: 1 },  // 2. 최초 생성(insert)될 때만, 패딩용 여유 필드 및 초기값 세팅 "$setOnInsert": { createdAt: new Date(), // 100 byte 짜리 의미 없는 문자열로 디스크에 여유 공간(패딩)을 미리 확보해둠 paddingSpace: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" } }, { upsert : true } ) :wq
+.editor
+editor vim
+use stats;
+use video;
+		"$inc": { count: 1 },		// 1. 수정할때마다 카운터 증가	{	},		"_id": "user_123"	{db.stats.updateOne(
+use stats
+db.stats
+use video
+		"$inc": { count: 1 },		// 1. 수정할때마다 카운터 증가	{	},		"_id": "user_123"	{db.stats.updateOne(
+show tables;
+;
+use video
+use vide;
+show tables;
+db.users.find()
+);	}		"upsert": true	{	},		}			"createdAt" : new Date()		"$setOnInsert": {	{db.users.updateOne({}, 
+db.users.findOne()
+);	}		"upsert": true	{	},		}			"createdAt" : new Date()		"$setOnInsert": {	{db.users.updateOne({}, 
+db.users.drop()
+db.users.find()
+db.users.findOne()
+db.users.insertOne({"rep": 25})
+db.users.findOne()
+);	}		"upsert": true	{	},		}			"createdAt" : new Date()		"$setOnInsert": {	{db.users.updateOne({}, 
+);	}		"upsert": true	{	},		}			"rep": 3		"$inc": {	{	},		"rep": 25	{db.users.updateOne(
+db.users.find()
+db.users.drop()
+db.users.findOne()
+);	}		"upsert": true	{	},		}			"createdAt" : new Date()		"$setOnInsert": {	{db.users.updateOne({}, 
+db.users.findOne()
+db.users.find()
+db.users.insertOne({"rep": 25})
+db.users.insertOn({"rep": 25})
+);	}		"upsert": true	{	},		}			"createdAt" : new Date()		"$setOnInsert": {	{db.users.updateOne({}, 
+db.users.find()
+);	}		"upsert": true	{	},		}			"createdAt" : new Date()		"$setOnInsert": {	{db.users.updateOne({}, 
+cls
+clx
+db.users.find()
+);	}		"upsert": true	{	},		}			"createAt" : new Date()		"$setOnInsert": {	{db.users.updateOne({}, 
+db.users.find()
+db.users.findOne({"_id": ObjectId("6a73ea5a80a4d36f520da89c")})
+db.users.fineOne({"_id": ObjectId("6a73ea5a80a4d36f520da89c")})
+)	}		"upsert": true	{	},		}			"rep": 3		"$inc": {	{	},		"rep": 25	{db.users.updateOne(
+db.users.find()
+show tables;
+dt
+\dt
+use video;
+use vide;
+db.users.find()
+db.analytics.findOne()
+);	}		"upsert": true	{	}, 		"$inc": {"pageviews" : 1}	{	}, 		url: "/blog"	{db.analytics.updateOne(
+db.analytics.findOne()
+}	db.analytics.insertOne({url: "/blog", pageviews : 1});else{// 항목이 없으면 이 페이지에 대한 새로운 도큐먼트 생성}	db.analytics.save(blog);	blog.pageviews++;if(blog){
+blog
+blog = db.analytics.findOne({url: "/blog"})
+db.analytics.drop();
+db.analytics.find()
+db.blog.posts.find()
+);	}		]			{"elem.votes": {$lte: -5}}		arrayFilters: [	{	{$set : {"comments.$[elem].hidden": true}},	{"_id" : ObjectId("6a66fd27001bc8bb29b9e087")},db.blog.posts.updateOne(
+db.blog.posts.find()
+db.blog.posts.updateOne({"comments.author" : "John"}, {"$set" : {"comments.$.author" : "Jim"}})
+db.blog.updateOne({"comments.author" : "John"}, {"$set" : {"comments.$.author" : "Jim"}})
+db.blog.posts.find()
+);	}		}			"comments.0.votes": 1		{		"$inc" : 	{db.blog.posts.updateOne({"_id": ObjectId("6a66fd27001bc8bb29b9e087")}, 
+);	}		}			"comments.0.votes": 1		{		"$inc" : 	{db.blog.updateOne({"post": post_id}, 
+);	}		}			"comments.0.votes": 1		{		"$inc" : 	{db.blog.updateOne({"post": post_id, 
+);	}		}			"comments.0.votes": 1		{		"$inc" : 	{db.blog.updateOne({"post": "6a66fd27001bc8bb29b9e087"}, 
+db.blog.posts.find()
+db.blog.posts.all()
+db.blog.posts
+db.blog.posts.findAll()
+);	}		}			"comments.0.votes": 1		{		"$inc" : 	{db.blog.updateOne({"post": ObjectId("6a66fd27001bc8bb29b9e087")}, 
+db.blog.posts.findOne()
+)	}		]			}				"votes": -7				"author": "Lynn",				"comment": "vacation getaways",			{			},				"votes": -5				"author": "Alice",				"comment": "free watches",			{			},				"votes": 3				"author": "Claire",				"comment": "i thought it was too short",			{			},				"votes": 0				"author": "John",				"comment": "good post",			{		"comments": [		"content": "...",	{db.blog.posts.insertOne(
+db.blog.posts.drop();
+use video;
+db.db.blog.posts.drop();
+db.blog.posts.findOne()
+db.lists.findOne();
+db.lists.updateOne({}, {"$pull": {"todo": "laundry"}});
+db.lists.insertOne({"todo": ["dishes", "laundry", "dry cleaning"]});
+db.users.findOne();
+});	}		}			"$each": ["joe@php.net", "joe@example.com", "joe@python.org"]		"emails": {	$addToSet: {db.users.updateOne({"_id" : ObjectId("6a6455e56884401997d0f1c8")}, {
+db.users.findOne();
+});	$addToSet: {"emails": "joe@hotmail.com"}db.users.updateOne({"_id" : ObjectId("6a6455e56884401997d0f1c8")}, {
+db.users.findOne();
+});	$addToSet: {"emails": "joe@gmail.com"}db.users.updateOne({"_id" : ObjectId("6a6455e56884401997d0f1c8")}, {
+db.users.findOne();
+);	}		]			"joe@yahoo.com"			"joe@gmail.com",			"joe@example.com",		"emails": [		"username": "joe",	{db.users.insertOne(
+db.users.drop();
+db.papers.find();
+);	}		}			"authors cited": "Richie"db.papers.updateOne({"authors cited" : {"$ne": "Richie"}}, {"$push": {
+db.papers.find()
+db.papers
+db.papers.findMany();
+]);	} 		"authors cited": ["Richie", "Thompson"] // 💡 이미 "Richie"가 있으므로 updateOne 조건($ne)에 안 맞아 변경되지 않음 		"title": "Operating System Concepts", 		"_id": 2, 	{ 	}, 		"authors cited": ["Knuth", "Turing"] // 💡 "Richie"가 없으므로 updateOne 실행 시 "Richie"가 $push 됨 		"title": "Deep Learning Fundamentals", 		"_id": 1, 	{ db.papers.insertMany([ 
+db.movies.findOne();
+});	}		}			"$sort": {"rating": -1}			"$slice": -10,			],				}					"rating": 4.3					"name": "Saw",				{				}, 					"rating": 6.6					"name": "Nightmare on Elm Street",				{			"$each": [		"top10": {db.movies.updateOne({"genre": "horror"}, {"$push": {
+);	}		"genre": "horror"	{db.movies.insertOne(
+db.movies.drop();
+db.movies.findOne();
+});	}		}			"$sort": {"rating": -1}			"$slice": -10,			],				}					"rating": 4.3					"name": "Saw",				{				}, 					"rating": 6.6					"name": "Nightmare on Elm Street",				{			"$each": [		"top10": {db.movies.updateOne({"genre": "horror"}, {"$push": {
+db.movies.drop();
+db.movies.findOne();
+});	}		}			"$sort": {"rating": -1}			"$slice": -10,			],				}					"rating": 4.3					"name": "Saw",				{				}, 					"rating": 6.6					"name": "Nightmare on Elm Street",				{			"$each": [		"top10": {db.movies.updateOne({"genre": "horror"}, {"$push": {
+db.movies.findOne();
+});	}		}			"$slice": -10			"$each": ["Nightmare on Elm Street", "Saw"],		"top10": {db.movies.updateOne({"genre": "horror"}, {"$push": {
+db.movies.findOne();
+);	}		"genre": "horror"	{db.movies.insertOne(
+db.movies.drop();
+db.movies.findOne();
+);	}		"genre": "horror"	{db.movies.insertOne(
+db.stock.ticker.findOne();
+);	}		}			}				"$each": [562.776, 562.790, 559.123]			"hourly": {db.stock.ticker.updateOne({"_id": "GOOG"}, {"$push": {
+db.stock.ticker.findOne();
+);	}		"_id": "GOOG"	{db.stock.ticker.insertOne(
+db.blog.posts.findOne();
+);	}		}			}				"content": "good post."				"email": "bob@example.com",				"name": "bob",			"comments": {		"$push": {db.blog.posts.updateOne({"title": "A blog post"}, {
+db.blog.posts.findOne();
+);	}		}			}				"content": "nice post."				"email": "joe@example.com",				"name": "joe",			"comments": {		"$push": {	{db.blog.posts.updateOne({"title": "A blog post"},
+);	}		}			}				}					"content": "nice post."					"email": "joe@example.com",					"name": "joe",				{			"comments": {		"$push": {	{db.blog.posts.updateOne({"title": "A blog post"},
+db.blog.posts.findOne();
+);	}		"content": "..."		"title": "A blog post",	{db.blog.posts.insertOne(
+db.blog.posts.drop()
+db.blog.posts.fineOne();
+v
+);	}		"content": "..."		"title": "A blog post",	{db.blog.posts.insertOne(
+db.blog.posts.fineOne(););	}		"content": "..."		"title": "A blog post",	{db.blog.posts.insertOne(
+db.strcounts.updateMany({}, {"$inc": {"count": 1}})
+db.strcounts.findOne()
+db.strcounts.insert({"count": "1"})
+db.games.findOne();
+db.games.updateOne({"game": "pinball", "user": "joe"}, {"$inc": {"score": 10000}})
+db.games.findOne();
+db.games.updateOne({"game": "pinball", "user": "joe"}, {"$inc": {"score": 50}})
+db.games.insertOne({"game": "pinball", "user": "joe"})
+db.blog.posts.updateOne({"author.name": "joe"}, {"author.name": "joe.schmoe"})
+db.blog.posts.findOne();
+db.blog.posts.updateOne({"author.name": "joe"}, {"$set": {"author.name": "joe schmoe"}});
+db.blog.posts.findOne();
+);	}		}			"email": "joe@example.com"			"name": "joe",		"author": {		"content" : "...",		"title": "A Blog Post",	{db.blog.posts.insertOne(
+);	}		}			"email": "joe@example.com"			"name": "joe",		"author": {		"content" : "...".		"title": "A Blog Post",	{db.blog.posts.insertOne(
+use video;
+use blog
+db.users.findOne();
+db.users.updateOne({"_id": ObjectId("6a6437856884401997d0f1be")}, {"$unset": {"favorite book": 1}});
+db.users.findOne();
+db.users.updateOne({"_id": ObjectId("6a6437856884401997d0f1be")}, {"$set": {"favorite book": ["Cat's Cradle", "Foundation Trilogy", "Ender's Game"]}});
+db.users.findOne();
+db.users.updateOne({"_id": ObjectId("6a6437856884401997d0f1be")}, {"$set": {"favorite book": "Green Eggs and Ham"}});
+db.users.findOne();
+db.users.fineOne();
+db.users.updateOne({"_id": ObjectId("6a6437856884401997d0f1be")}, {"$set": {"favorite book": "War and Peace"}});
+db.users.findOne()
+);	}		"location": "Wisconsin"		"set": "male",		"age": 30,		"name": "joe",	{db.users.insertOne(
+db.users.findOne()
+db.analytics.find()
+db.analytics.updateOne({"url": "www.example.com"}, {"$inc": {"pageviews" : 1}})
+db.analytics.find()
+);	}		"pageviews": 52		"url": "www.example.com",	{db.analytics.insertOne(
+db.people.find()
+db.people.replaceOne({"_id": ObjectId("aaaaaaaaaaaaaaaaaaaa7a7c")}, joe)
+db.people.replaceOne({"name": "joe"}, joe);
+joe.age++;
+joe = db.people.findOne({"name": "joe", "age": 20});
+db.people.find()
+use video;
+);	]		{"_id": ObjectId("aaaaaaaaaaaaaaaaaaaa7a7d"), "name": "joe", "age": 49}		{"_id": ObjectId("aaaaaaaaaaaaaaaaaaaa7a7c"), "name": "joe", "age": 20},		{"_id": ObjectId("aaaaaaaaaaaaaaaaaaaa7a7b"), "name": "joe", "age": 65},	[db.people.insertMany(
+db.people.find()
+db.people
+db.people.find()
+use video;
+use vide;
+);	]		{"_id": ObjectId("aaaaaaaaaaaaaaaaaaaa7a7d"), "name": "joe", "age": 49}		{"_id": ObjectId("aaaaaaaaaaaaaaaaaaaa7a7c"), "name": "joe", "age": 20},		{"_id": ObjectId("aaaaaaaaaaaaaaaaaaaa7a7b"), "name": "joe", "age": 65},	[db.people.insertMany(
+db.users.deleteMany({"name": "joe"})
+);	]		{"_id": ObjectId("aaaaaaaaaaaaaaaaaaaa7a7d"), "name": "joe", "age": 49}		{"_id": ObjectId("aaaaaaaaaaaaaaaaaaaa7a7c"), "name": "joe", "age": 20},		{"_id": ObjectId("aaaaaaaaaaaaaaaaaaaa7a7b"), "name": "joe", "age": 65},	[db.users.insertMany(
+);	]		{"_id": ObjectId("aaaaaaaaaaaaaaaaaaa7a7d"), "name": "joe", "age": 49}		{"_id": ObjectId("aaaaaaaaaaaaaaaaaaa7a7c"), "name": "joe", "age": 20},		{"_id": ObjectId("aaaaaaaaaaaaaaaaaaa7a7b"), "name": "joe", "age": 65},	[db.users.insertMany(
+);	]		{"_id": ObjectId("7a7d"), "name": "joe", "age": 49}		{"_id": ObjectId("7a7c"), "name": "joe", "age": 20},		{"_id": ObjectId("7a7b"), "name": "joe", "age": 65},	[db.users.insertMany(
+db.users.find()
+db.users.replaceOne({"name":"joe"}, joe); // replaceOne을 사용해 데이터베이스 버전 교체
+joe
+delete joe.namedelete joe.enemies;delete joe.friends;joe.username=joe.name;joe.relationships = {"friends": joe.friends, "enemies": joe.enemies};var joe = db.users.findOne({"name": "joe"});
+db.users.find()
+)	}		"enemies": 2 		"friends": 32,		"name": "joe",	{db.users.insertOne(
+db.movies.find()
+db.movies.drop()
+db.movies.find()
+db.mvoies.find()
+db.movies.deleteMany({"year": 1984})
+db.movies.find()
+);	]		{"_id": 5, "title": "Scarface", "year": 1983}		{"_id": 4, "title": "The Terminator", "year": 1984},		{"_id": 3, "title": "Sixteen Candles", "year": 1984},		{"_id": 1, "title": "Back to the Future", "year": 1985},		{"_id": 0, "title": "Top Gun", "year": 1986},	[db.movies.insertMany(
+db.movies.drop();
+db.movies.drop()
+db.movies.find()
+v
+db.movies.deleteOne({"_id": 4})
+db.movies.find()
+)	{"ordered" : false}	],		{"_id": 5, "title": "Scarface"}		{"_id": 4, "title": "The Princess Bride"},		{"_id": 4, "title": "The Terminator"},		{"_id": 3, "title": "Sixteen Candles"},	[db.movies.insertMany(
+);	]		{"_id": 2, "title": "Aliens"}		{"_id": 1, "title": "Gremlins"},		{"_id": 1, "title": "Back to the Future"},		{"_id": 0, "title": "Top Gun"},	[db.movies.insertMany(
+db.movies.drop()
+db.movies.find()
+)	{"ordered" : false}	],		{"_id": 5, "title": "Scarface"}		{"_id": 4, "title": "The Princess Bride"},		{"_id": 4, "title": "The Terminator"},		{"_id": 3, "title": "Sixteen Candles"},	[db.movies.insertMany(
+db.movies.drop();
+db.movies.find()
+);	]		{"_id": 2, "title": "Aliens"}		{"_id": 1, "title": "Gremlins"},		{"_id": 1, "title": "Back to the Future"},		{"_id": 0, "title": "Top Gun"},	[db.movies.insertMany(
+cls
+clear
+use vide;
+		{"_id": 1, "title": "Gremlins"},		{"_id": 1, "title": "Back to the Future"},		{"_id": 0, "title": "Top Gun"},	[db.movies.insertMany(
+);	]		{"title": "Balde Runner"}		{"title": "E.T."},		{"title": "Ghostbusters"},	[db.movies.insertMany(
+);	{"title": "Balde Runner"}	{"title": "E.T."},	{"title": "Ghostbusters"},db.movies.insertMany(
+db.movies.drop()
+db.movies.find()
+use video
+exit
+db.movies.find()
+db.movies.drop()
+db.movies.find()
+db.movies.insertOne({"title": "Stand by Me"})
+db.movies.find()
+use video
+db.movies.drop()
+db.movies.insertOne({"title": "Stand by Me"})
+db[name].find()
+var name = "@#&!";
+print(db.blog.authors);
+print(db.blog.comments);
+print(db.blog.posts);
+for (var i in collections) { print(db.blog[collections[i]]); }
+var collections = ["posts", "comments", "authors"];
+db["foo-bar-baz"]
+db["version"]
+db[version]
+db.getCollection("foo-bar-baz")
+db.foo-bar-baz
+db.getCollection("version");
+db.version()
+db.version*)
+db.version
+db.movies
+db.getCollection("version");
+db.version
+edit
+exit
+albums
+albums = ["a", "b", "c"]
+edit albums
+print(albums);
+print albums;
+print albums
+albums
+edit albums
+var albums = [];
+var wap = db.books.fineOne({title: "War and Peace"});
+config.set("editor", "vim")
+use video
+exit
+edit
+config.set("editor", "vim")
+edit
+db.movies.updateOne.toString()
+db.foo.help()
+printjson
+print
+version
+help
+new Date()
+})	director: "George Lucas"	title: "Star Wars: Episode IV - A new Hope",db.movies.deleteOne({
+db.movies.find().pretty()
+db.movies.findOne()
+db.movies.insertOne(movie)
+}	"year": 1977	"director": "George Lucas",	"title": "Star Wars: Episode IV - A new Hope",movie = {
+db.movies.find().pretty()
+select * from movies;
+dt
+\dt
+ls
+db.movies
+show tables;
+db.video
+show db
+/dt
+\dt
+dt
+\dt
+use video
+show dbs;
+db.version
+edit
+exit
+albums = ["a", "b", "c"]
+edit albums
+var albums = [];
+db
+edit
+config.set("editor", "vim")
+.editor
+edit
+EDITOR wap
+edit wap
+var wap = db.books.findOne({title: "War and Peace"});
+wap
+EDITOR="/usr/bin/vim"
+exit
+edit wap
+var wap = db.books.findOne({title: "War and Peace"});
+var wap - db.books.findOne({title: "War and Peace"});
+use video
+show collections
+ls
+use books
+typeof db.books.fineOne
+var wap = db.books.fineOne({title: "War and Peace"});
+db.books.fineOne
+ls
+var wap = db.books.fineOne({title: "War and Peace"});
+db.books.fineOne({title: "War and Peace"});
+use video
+exit
+awefa
+exit
+db.hello()
+	}		return '(nodb)> ';	if(typeof db == 'undefined'){prompt = function(){
+exit
+prompt = function () { if (typeof db == 'undefined') { return '(nodb)> '; } try { db.runCommand({ getLastError: 1 }); } catch (e) { print(e); } return db + "> "; }
+	}		return '(nodb)> ';	if(typeof db == 'undefined'){prompt = function(){
+}	return (new Date()) + "> ";prompt = function(){
+prompt = function() { return (new Date()) + ">"; };
+db.dropDatabase()
+exit
+EOFCollection.prototype.dropIndexes = no;Collection.prototype.dropIndex = no;// 인덱스 삭제 방지Collection.prototype.drop = no;// 컬렉션 삭제 방지 (DBCollection -> Collection)db.dropDatabase = Database.prototype.dropDatabase = no;// 데이터베이스에서 삭제 방지 (DB -> Database)}    print("Not on my watch");var no = function(){cat << 'EOF' > ~/.mongoshrc.js
+exit
+EOFprint("Hello, you're looking particularly " + compliment[index] + " today!");var index = Math.floor(Math.random()*3);var compliment = ["attractive", "intelligent", "like Batman"];// .mongorc.jscat << 'EOF' > .mongoshrc.js
+exit
+mv .mongorc.js .mongoshrc.js
+exit
+ls
+cat .mongoshrc.js
+exit
+cat << 'EOF' > .mongorc.js
+run
+run("ls", "-l", "/")
+exit
+typeof connectTo
+load('defineConnectTo.js')
+typeof connectTo
+exit
+use video
+exit
+history
+touch "db.getSisterDB('video');" > script1.js
+touch "db.getSisterDB('video')" > script1.js
+load("script1.js")
+exit
+db = conn.getDB("video")
+db = conn.getDB("myDB")
+show dbs;
+use video
+exit
+db.serverCmdLineOpts().parsed.net.port
+exit
+db.serverCmdLineOpts().parsed.net.port
+exit
+show dbs;
+exit
+show dbs;
+use video
+exit
+db.movies.updateOne.toString()
+db.vmoies.updateOne
+db.movies.fineOne
+db.movies
+db.movies.updateOne
+db.foo.help()
+db.help()
+help | grep db
+help
+mongo --nodb
+help()
+mongo some-host:30000/myDB
+mongo
+use video;
+show dbs;
+use movie;
+show dbs;
+exit
+show dbs;
+show dbs
+db
+dbs
+use mydb;
+show databaes;
+exit
+new Date()
+})	director: "George Lucas"	title: "Star Wars: Episode IV - A new Hope",db.movies.deleteOne({
+db.movies.find().pretty()
+)	}		}			reviews: []		$set: {	{	},		director: "George Lucas"		title: "Star Wars: Episode IV - A new Hope",	{db.movies.updateOne(
+db.movies.findOne()
+db.movies.find().pretty()
+db.movies.insertOne(movie)
+}	"year": 1977	"director": "George Lucas",	"title": "Star Wars: Episode IV - A new Hope",movie = {
+db.movies.insertOne(movie)
+db.movies
+db.movies.insertOne(movie)
+use video
+exit
+conn
+con
+db.movies.insertOne(movie)
+}	"year": 1977	"director": "George Lucas",	"title": "Star Wars: Episode IV - A new Hope",movie = {
+use video A new Hope",movie = {
+use video
