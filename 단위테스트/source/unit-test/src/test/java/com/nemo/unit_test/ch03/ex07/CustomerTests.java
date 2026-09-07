@@ -7,6 +7,21 @@ import java.util.Objects;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+/**
+ * 테스트 생성자에서 초기화 코드 추출
+ * <p>
+ * 특징<br>
+ * - 2개의 테스트는 공통된 준비 단계 로직을 공유한다.
+ * - 준비 구절이 동일해서 생성자(CustomerTests)로 추출되었다.
+ * <p>
+ * 장점<br>
+ * - 테스트 코드량을 줄임
+ * - 각각의 테스트에서 테스트 픽스처(Store, 인벤토리 추가 로직) 구성을 전부 또는 대부분 제거 가능함
+ * <p>
+ * 단점<br>
+ * - 각각의 테스트간에 결합도가 높아진다.
+ * - 테스트 가독성이 떨어진다.
+ */
 class CustomerTests {
 
 	private final Store store; // 공통 테스트 픽스처(Fixture)
