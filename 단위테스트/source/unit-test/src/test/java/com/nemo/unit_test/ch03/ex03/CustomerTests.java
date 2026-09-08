@@ -60,6 +60,7 @@ class CustomerTests {
 
 	/**
 	 * 코드 문제점
+	 * <pre>
 	 * - 단일 작업(물품 구매)을 수행하는데 2개의 메서드 호출(purchase, removeInventory)이 필요함
 	 * - Customer 클래스의 API(purchase)에 문제가 존재함
 	 * - 클라이언트 코드가 첫번째 메서드(purchase)를 호출하고 두번재 메서드를 호출하지 않으면 재고 수량 부분에서 문제가 발생함
@@ -72,8 +73,7 @@ class CustomerTests {
 	 * 키워드
 	 * - 불변 위반(invariant violation)
 	 * - 캡슐화(encapsulation)
-	 *
-	 *
+	 *</pre>
 	 */
 	@Test
 	void purchase_succeeds_when_enough_inventory(){
