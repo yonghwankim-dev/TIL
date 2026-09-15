@@ -1,4 +1,4 @@
-package com.nemo.unit_test.ch05.ex05;
+package com.nemo.unit_test.ch05.ex06;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,7 +15,7 @@ class UserControllerTests {
 
 		public User(int userId, String name) {
 			this.userId = userId;
-			this.name = name;
+			this.name = normalizedName(name);
 		}
 
 		public int getUserId() {
@@ -26,8 +26,13 @@ class UserControllerTests {
 			return name;
 		}
 
-		// 양옆의 공백을 제거하고 길이가 50자를 넘어가면 50자까지만 자르고 저장한다
-		public String normalizedName(String name) {
+		// 이름 변경시 normalized 처리
+		public void setName(String name) {
+			this.name = normalizedName(name);
+		}
+
+		// public -> private 변경
+		private String normalizedName(String name) {
 			String result = name.trim();
 
 			if (result.length() > 50){
@@ -47,7 +52,8 @@ class UserControllerTests {
 		public void renameUser(int userId, String newName){
 			User user = userRepository.findById(userId);
 
-			user.name = user.normalizedName(newName);
+			// 클라이언트 입장에서는 newName을 전달하기만 함
+			user.setName(newName);
 
 			userRepository.save(user);
 		}
@@ -66,15 +72,10 @@ class UserControllerTests {
 	}
 
 	/**
-	 * 구현 세부 사항을 유출하는 User 클래스
+	 * API가 잘 설계된 User 클래스
 	 * <pre>
-	 *     클라이언트 : UserController
-	 *     클라이언트가 사용자 이름을 변경하는데 도움이 되는 작업 => User Setter 메서드
-	 *     User.normalizedName 메서드도 하나의 작업이지만 목표에 직결되지는 않는다.
-	 *     문제점
-	 *     - User 클래스의 normalizedName은 클래스의 공개 API로 유출되는 구현 세부사항이다.
-	 *     해결방법
-	 *     - normalizedName 메서드를 숨기고, name 세터를 클라이언트 코드에 의지하지 않고 내부적으로 호출하기
+	 *     식별할 수 있는 동작만 공개 = setName
+	 *     구현 세부사항 비공개 = normalizedName
 	 * </pre>
 	 */
 	@Test
